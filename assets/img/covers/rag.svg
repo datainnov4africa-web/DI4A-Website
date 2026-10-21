@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Documents, search and a cited answer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00553A"/>
+      <stop offset="0.6" stop-color="#00704A"/>
+      <stop offset="1" stop-color="#00A86A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5C242"/>
+      <stop offset="1" stop-color="#E9A825"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#00291C" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1020" cy="120" r="220" fill="#F5C242" fill-opacity="0.08"/>
+  <circle cx="140" cy="600" r="180" fill="#ffffff" fill-opacity="0.05"/>
+
+  <!-- stack of documents -->
+  <g filter="url(#shadow)">
+    <rect x="250" y="190" width="260" height="340" rx="14" fill="#ffffff" fill-opacity="0.18" transform="rotate(-8 380 360)"/>
+    <rect x="275" y="175" width="260" height="340" rx="14" fill="#ffffff" fill-opacity="0.35" transform="rotate(-4 405 345)"/>
+    <rect x="300" y="160" width="260" height="340" rx="14" fill="#F4F7F5"/>
+    <rect x="330" y="200" width="150" height="12" rx="6" fill="#00553A"/>
+    <rect x="330" y="232" width="200" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="330" y="252" width="190" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="330" y="272" width="170" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="330" y="306" width="200" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="330" y="326" width="140" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="330" y="360" width="200" height="60" rx="8" fill="#F5C242" fill-opacity="0.55"/>
+    <rect x="345" y="376" width="120" height="8" rx="4" fill="#00553A"/>
+    <rect x="345" y="396" width="90" height="8" rx="4" fill="#00553A" fill-opacity="0.7"/>
+    <rect x="330" y="446" width="180" height="8" rx="4" fill="#B8C7BF"/>
+  </g>
+
+  <!-- magnifier -->
+  <g filter="url(#shadow)">
+    <circle cx="620" cy="300" r="78" fill="none" stroke="url(#gold)" stroke-width="22"/>
+    <circle cx="620" cy="300" r="62" fill="#ffffff" fill-opacity="0.12"/>
+    <line x1="676" y1="356" x2="760" y2="440" stroke="url(#gold)" stroke-width="26" stroke-linecap="round"/>
+  </g>
+
+  <!-- answer bubble -->
+  <g filter="url(#shadow)">
+    <path d="M760 190h300a22 22 0 0 1 22 22v180a22 22 0 0 1-22 22H830l-50 48v-48h-20a22 22 0 0 1-22-22V212a22 22 0 0 1 22-22z" fill="#ffffff"/>
+    <rect x="790" y="222" width="180" height="12" rx="6" fill="#00553A"/>
+    <rect x="790" y="254" width="260" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="790" y="274" width="240" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="790" y="294" width="250" height="8" rx="4" fill="#B8C7BF"/>
+    <rect x="790" y="332" width="150" height="34" rx="17" fill="#E6F6EE"/>
+    <circle cx="809" cy="349" r="7" fill="#00A86A"/>
+    <rect x="824" y="345" width="56" height="8" rx="4" fill="#00704A"/>
+    <rect x="955" y="332" width="90" height="34" rx="17" fill="#FFF6DA"/>
+    <rect x="970" y="345" width="60" height="8" rx="4" fill="#9A6B00"/>
+  </g>
+
+  <!-- connection dots -->
+  <g fill="#F5C242">
+    <circle cx="560" cy="560" r="5"/><circle cx="600" cy="575" r="4"/><circle cx="645" cy="560" r="6"/>
+    <circle cx="690" cy="580" r="3"/><circle cx="730" cy="555" r="5"/><circle cx="780" cy="572" r="4"/>
+  </g>
+  <path d="M560 560L600 575L645 560L690 580L730 555L780 572" fill="none" stroke="#F5C242" stroke-opacity="0.6" stroke-width="2"/>
+</svg>

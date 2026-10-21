@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="A maturity staircase with five levels and an upward trajectory">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00392A"/>
+      <stop offset="0.6" stop-color="#00553A"/>
+      <stop offset="1" stop-color="#00704A"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00A86A"/>
+      <stop offset="1" stop-color="#00704A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5C242"/>
+      <stop offset="1" stop-color="#E9A825"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#00291C" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1030" cy="130" r="200" fill="#F5C242" fill-opacity="0.07"/>
+
+  <!-- five maturity steps -->
+  <g filter="url(#shadow)">
+    <rect x="130" y="470" width="170" height="90" rx="12" fill="url(#step)"/>
+    <rect x="320" y="400" width="170" height="160" rx="12" fill="url(#step)"/>
+    <rect x="510" y="330" width="170" height="230" rx="12" fill="url(#step)"/>
+    <rect x="700" y="260" width="170" height="300" rx="12" fill="url(#step)"/>
+    <rect x="890" y="190" width="170" height="370" rx="12" fill="url(#gold)"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="700" text-anchor="middle" fill="#ffffff">
+    <text x="215" y="525" font-size="40">1</text>
+    <text x="405" y="455" font-size="40">2</text>
+    <text x="595" y="385" font-size="40">3</text>
+    <text x="785" y="315" font-size="40">4</text>
+    <text x="975" y="245" font-size="40" fill="#00392A">5</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#ffffff" fill-opacity="0.85" letter-spacing="1">
+    <text x="215" y="590">INITIAL</text>
+    <text x="405" y="590">EMERGING</text>
+    <text x="595" y="590">DEFINED</text>
+    <text x="785" y="590">MANAGED</text>
+    <text x="975" y="590" fill="#F5C242">OPTIMISED</text>
+  </g>
+
+  <!-- trajectory -->
+  <path d="M150 430 C 330 400, 450 330, 600 280 S 850 200, 1000 120" fill="none" stroke="#F5C242" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 14"/>
+  <g fill="#F5C242">
+    <circle cx="150" cy="430" r="9"/><circle cx="405" cy="350" r="9"/><circle cx="600" cy="280" r="9"/><circle cx="785" cy="210" r="9"/>
+  </g>
+  <g transform="translate(1000 120)">
+    <circle r="22" fill="#F5C242"/>
+    <path d="M-7 3 L0 -6 L7 3" fill="none" stroke="#00392A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- building / lab icon -->
+  <g transform="translate(150 150)" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 120 V40 L60 0 L120 40 V120 Z"/>
+    <path d="M45 120 V80 H75 V120"/>
+    <path d="M30 60 h20 M70 60 h20"/>
+  </g>
+</svg>
