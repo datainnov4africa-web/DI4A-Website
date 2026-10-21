@@ -60,9 +60,10 @@ jobs:
           s = c["stats"]
           print(f"- **{s['themes']}** themes, **{s['labs']}** labs, **{s['presentations']}** presentations")
           for t in c["themes"]:
-              print(f"- {t['title']['en']} ({len(t['documents'])} documents)")
+              print(f"- {t['title']['en']} ({len(t['documents'])} documents, {t['counts']['files']} files)")
               for d in t["documents"]:
-                  print(f"  - `{d['download_name']}`")
+                  for v in d["versions"].values():
+                      print(f"  - `{v['download_name']}`")
           EOF
           } >> "$GITHUB_STEP_SUMMARY"
 
