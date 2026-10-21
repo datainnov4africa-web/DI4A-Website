@@ -1,0 +1,126 @@
+# ---------------------------------------------------------------------------
+# Theme metadata — Price statistics (folder: content/CPI)
+# ---------------------------------------------------------------------------
+order: 4
+icon: chart
+cover: _cover.svg
+
+title:
+  en: Price Statistics & Alternative Data for the CPI
+  fr: Statistiques des prix et données alternatives pour l'IPC
+
+description:
+  en: >-
+    The consumer price index guides monetary policy, indexes wages and deflates the national
+    accounts: a one-point error is paid for everywhere. This theme covers the CPI from definition to
+    compilation, the COICOP 2018 classification that structures the basket, and a hands-on lab that
+    turns online and administered prices into an experimental index for Côte d'Ivoire and Senegal.
+  fr: >-
+    L'indice des prix à la consommation guide la politique monétaire, indexe les salaires et déflate
+    les comptes nationaux : une erreur d'un point se paie partout. Ce thème couvre l'IPC de la
+    définition au calcul, la nomenclature COICOP 2018 qui structure le panier, et un lab pratique qui
+    transforme prix en ligne et prix administrés en un indice expérimental pour la Côte d'Ivoire et le
+    Sénégal.
+
+documents:
+
+  CPI_COICOP2018_AfDB_EN.pdf:
+    order: 1
+    group: cpi-coicop-deck         # pairs the EN and FR decks whose file names differ
+    download: Consumer_Price_Index_COICOP_Classification_And_Online_Prices
+    title:
+      en: "The consumer price index: from COICOP 2018 to online prices"
+      fr: "L'indice des prix à la consommation : de la COICOP 2018 aux prix en ligne"
+    description:
+      en: >-
+        Definition, basket, weights and compilation methods of the CPI, the harmonised index of the
+        West African Economic and Monetary Union, the COICOP 2018 classification, and how online and
+        institutional prices can complement price collection in Côte d'Ivoire and Senegal.
+      fr: >-
+        Définition, panier, pondérations et méthodes de calcul de l'IPC, l'indice harmonisé de
+        l'UEMOA, la nomenclature COICOP 2018, et comment les prix en ligne et les prix publiés par les
+        institutions peuvent compléter la collecte en Côte d'Ivoire et au Sénégal.
+
+  IPC_COICOP2018_AfDB_FR.pdf:
+    order: 1
+    group: cpi-coicop-deck
+    download: Consumer_Price_Index_COICOP_Classification_And_Online_Prices
+    title:
+      en: "The consumer price index: from COICOP 2018 to online prices"
+      fr: "L'indice des prix à la consommation : de la COICOP 2018 aux prix en ligne"
+    description:
+      en: >-
+        French version of the deck: CPI definition, basket and compilation, COICOP 2018, and online
+        prices as a complement to collection.
+      fr: >-
+        Définition, panier, pondérations et méthodes de calcul de l'IPC, l'indice harmonisé de
+        l'UEMOA, la nomenclature COICOP 2018, et comment les prix en ligne et les prix publiés par les
+        institutions peuvent compléter la collecte en Côte d'Ivoire et au Sénégal.
+
+  3_analysis_EN.ipynb:
+    order: 2
+    group: online-price-index-lab
+    download: Online_Price_Index_Analysis_And_COICOP_Classification_Lab
+    title:
+      en: "Lab — Online price index: aggregation, COICOP classification and index computation"
+      fr: "Lab — Indice des prix en ligne : agrégation, classification COICOP et calcul de l'indice"
+    description:
+      en: >-
+        No installation and no code to write: run the cells from top to bottom. The notebook
+        aggregates the price records collected online and from institutions, checks them, assigns
+        each product to a COICOP class with rules or a language model, compares the classification
+        methods, computes a price index and produces a downloadable report. Third notebook of a
+        three-part series.
+      fr: >-
+        Version anglaise du lab : agrégation des relevés, classification COICOP, comparaison des
+        méthodes, calcul de l'indice et rapport à télécharger.
+
+  3_analyse_FR.ipynb:
+    order: 2
+    group: online-price-index-lab   # pairs the EN and FR notebooks whose file names differ
+    download: Online_Price_Index_Analysis_And_COICOP_Classification_Lab
+    title:
+      en: "Lab — Online price index: aggregation, COICOP classification and index computation"
+      fr: "Lab — Indice des prix en ligne : agrégation, classification COICOP et calcul de l'indice"
+    description:
+      en: >-
+        French version of the lab: aggregate the price records, classify products into COICOP,
+        compare the methods, compute the index and download the report.
+      fr: >-
+        Rien à installer, aucune ligne de code à écrire : lancez les cellules de haut en bas. Le
+        notebook agrège les relevés de prix collectés en ligne et auprès des institutions, les
+        contrôle, rattache chaque produit à une classe COICOP par règles ou par modèle de langue,
+        compare les méthodes de classification, calcule un indice des prix et produit un rapport à
+        télécharger. Troisième notebook d'une série de trois.
+
+  Installing-Python-JupyterLab-EN.pdf:
+    order: 3
+    group: python-jupyterlab-install
+    download: Installing_Python_And_JupyterLab_Step_By_Step_Guide
+    title:
+      en: "Installing Python and JupyterLab — step-by-step guide"
+      fr: "Installer Python et JupyterLab — guide pas à pas"
+    description:
+      en: >-
+        Two installs, fifteen minutes, no prior Python knowledge: check whether Python is already
+        there, install it on Windows, macOS or Linux, install and launch JupyterLab, and fix the five
+        most common problems.
+      fr: >-
+        Deux installations, quinze minutes, aucune connaissance préalable de Python : vérifier si
+        Python est déjà présent, l'installer sous Windows, macOS ou Linux, installer et lancer
+        JupyterLab, et résoudre les cinq problèmes les plus fréquents.
+
+  Installer-Python-JupyterLab-FR.pdf:
+    order: 3
+    group: python-jupyterlab-install
+    download: Installing_Python_And_JupyterLab_Step_By_Step_Guide
+    title:
+      en: "Installing Python and JupyterLab — step-by-step guide"
+      fr: "Installer Python et JupyterLab — guide pas à pas"
+    description:
+      en: >-
+        French version of the guide: install Python and JupyterLab in fifteen minutes on any system.
+      fr: >-
+        Deux installations, quinze minutes, aucune connaissance préalable de Python : vérifier si
+        Python est déjà présent, l'installer sous Windows, macOS ou Linux, installer et lancer
+        JupyterLab, et résoudre les cinq problèmes les plus fréquents.

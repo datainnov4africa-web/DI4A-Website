@@ -1,0 +1,73 @@
+# ---------------------------------------------------------------------------
+# Theme metadata — Data innovation framework (folder: content/Framework)
+# ---------------------------------------------------------------------------
+order: 1
+icon: layers
+cover: _cover.svg
+
+title:
+  en: Data Innovation Framework & Maturity Model
+  fr: Cadre d'innovation des données et modèle de maturité
+
+description:
+  en: >-
+    The strategic foundation of DI4A: why official statistics in Africa must innovate, how to set up a
+    data innovation lab inside a statistical office, and how to assess and grow its maturity with the
+    African Development Bank's Data Innovation Maturity Model.
+  fr: >-
+    Le socle stratégique de DI4A : pourquoi la statistique officielle en Afrique doit innover, comment
+    créer un laboratoire d'innovation des données au sein d'un institut de statistique, et comment
+    évaluer et faire progresser sa maturité avec le modèle de maturité de l'innovation des données de
+    la Banque africaine de développement.
+
+documents:
+
+  1430_DI4A_practical_guide_to_applying_the_afdbs_data_innovation_maturity_model_EN.pdf:
+    order: 1
+    download: Establishing_A_Data_Innovation_Lab_Practical_Guide_To_The_Maturity_Model
+    title:
+      en: "Establishing a data innovation lab: a practical guide to applying the AfDB's Data Innovation Maturity Model"
+      fr: "Créer un laboratoire d'innovation des données : guide pratique d'application du modèle de maturité de la BAD"
+    description:
+      en: >-
+        An 80-page guide from the Statistics Department: the case for innovation in data and
+        statistics, the components of a data innovation lab, the maturity model's dimensions and
+        levels, and a step-by-step method to assess an institution and plan its progression.
+      fr: >-
+        Un guide de 80 pages du Département des statistiques : les raisons d'innover en matière de
+        données et de statistiques, les composantes d'un laboratoire d'innovation des données, les
+        dimensions et niveaux du modèle de maturité, et une méthode pas à pas pour évaluer une
+        institution et planifier sa progression.
+
+  Presentation_DIL_AfDB_EN.pdf:
+    order: 2
+    group: dil-presentation        # pairs the EN and FR decks whose file names differ
+    download: Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides
+    title:
+      en: "Establishing a data innovation lab — slides"
+      fr: "Mettre en place un laboratoire d'innovation des données — diapositives"
+    description:
+      en: >-
+        The guide in 25 slides: why official statistics must innovate, the objectives, pillars and
+        functions of a data innovation lab, the twelve dimensions of the maturity model, lessons from
+        the pilot countries and the way forward.
+      fr: >-
+        Le guide en 25 diapositives : pourquoi la statistique officielle doit innover, les objectifs,
+        piliers et fonctions d'un laboratoire d'innovation des données, les douze dimensions du modèle
+        de maturité, les leçons des pays pilotes et les perspectives.
+
+  Presentation_DIL_BAD_FR.pdf:
+    order: 2
+    group: dil-presentation
+    download: Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides
+    title:
+      en: "Establishing a data innovation lab — slides"
+      fr: "Mettre en place un laboratoire d'innovation des données — diapositives"
+    description:
+      en: >-
+        French version of the deck: the DIL initiative, the twelve-dimension maturity model and
+        lessons from the pilot countries.
+      fr: >-
+        Le guide en 25 diapositives : pourquoi la statistique officielle doit innover, les objectifs,
+        piliers et fonctions d'un laboratoire d'innovation des données, les douze dimensions du modèle
+        de maturité, les leçons des pays pilotes et les perspectives.

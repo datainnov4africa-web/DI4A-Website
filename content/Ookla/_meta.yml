@@ -1,0 +1,184 @@
+# ---------------------------------------------------------------------------
+# Theme metadata — Connectivity & big data at scale (folder: content/Ookla)
+# ---------------------------------------------------------------------------
+order: 3
+icon: globe
+cover: _cover.svg
+
+title:
+  en: Connectivity Data & Big Data at Scale
+  fr: Données de connectivité et big data à l'échelle
+
+description:
+  en: >-
+    Turn hundreds of millions of crowdsourced Ookla Speedtest tiles into a population-weighted,
+    subnational connectivity indicator with WorldPop. Along the way, discover the six building blocks
+    of a big-data platform for official statistics and put the Elastic Stack to work: index, map and
+    publish a presentation-ready dashboard from one country code.
+  fr: >-
+    Transformez des centaines de millions de tuiles Ookla Speedtest issues de mesures participatives
+    en un indicateur de connectivité infranational pondéré par la population avec WorldPop. Au
+    passage, découvrez les six briques d'une plateforme big data pour la statistique officielle et
+    mettez la suite Elastic au travail : indexer, cartographier et publier un tableau de bord prêt à
+    présenter à partir d'un seul code pays.
+
+documents:
+
+  1045_hands-on_EN_DI4A.ipynb:
+    order: 1
+    download: Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab
+    title:
+      en: "Lab — Measuring the connectivity gap with Ookla Open Data and WorldPop"
+      fr: "Lab — Mesurer la fracture de connectivité avec les données ouvertes Ookla et WorldPop"
+    description:
+      en: >-
+        Give the notebook one country code and get back a published dashboard. In between it runs the
+        whole data value chain: download Ookla Speedtest tiles, cross them with the WorldPop population
+        grid, compute population-weighted download and upload speeds by region and publish the result.
+      fr: >-
+        Donnez un code pays au notebook et récupérez un tableau de bord publié. Entre les deux, il
+        déroule toute la chaîne de valeur des données : téléchargement des tuiles Ookla Speedtest,
+        croisement avec la grille de population WorldPop, calcul des débits pondérés par la population
+        par région et publication du résultat.
+
+  1045_hands-on_FR_DI4A.ipynb:
+    order: 1
+    download: Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab
+    title:
+      en: "Lab — Measuring the connectivity gap with Ookla Open Data and WorldPop"
+      fr: "Lab — Mesurer la fracture de connectivité avec les données ouvertes Ookla et WorldPop"
+    description:
+      en: >-
+        French version of the lab: from one country code to a published, population-weighted
+        subnational connectivity dashboard built on Ookla Speedtest tiles and WorldPop.
+      fr: >-
+        Donnez un code pays au notebook et récupérez un tableau de bord publié. Entre les deux, il
+        déroule toute la chaîne de valeur des données : téléchargement des tuiles Ookla Speedtest,
+        croisement avec la grille de population WorldPop, calcul des débits pondérés par la population
+        par région et publication du résultat.
+
+  1045_hands-on_EN_DI4A.pdf:
+    order: 2
+    download: Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides
+    title:
+      en: "Measuring the connectivity gap with Ookla Open Data — slides"
+      fr: "Mesurer la fracture de connectivité avec les données ouvertes Ookla — diapositives"
+    description:
+      en: >-
+        Why connectivity is a statistical question, what crowdsourced speed tests measure, and how to
+        go from raw tiles to a population-weighted subnational indicator. The deck that accompanies the
+        lab.
+      fr: >-
+        Pourquoi la connectivité est une question statistique, ce que mesurent les tests de débit
+        participatifs, et comment passer des tuiles brutes à un indicateur infranational pondéré par
+        la population. Le support qui accompagne le lab.
+
+  1045_hands-on_FR_DI4A.pdf:
+    order: 2
+    download: Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides
+    title:
+      en: "Measuring the connectivity gap with Ookla Open Data — slides"
+      fr: "Mesurer la fracture de connectivité avec les données ouvertes Ookla — diapositives"
+    description:
+      en: >-
+        French version of the deck accompanying the connectivity-gap lab.
+      fr: >-
+        Pourquoi la connectivité est une question statistique, ce que mesurent les tests de débit
+        participatifs, et comment passer des tuiles brutes à un indicateur infranational pondéré par
+        la population. Le support qui accompagne le lab.
+
+  1400_engines-of-scale_EN_DI4A.pdf:
+    order: 3
+    download: Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems
+    title:
+      en: "Engines of scale: big data technologies for statistical systems"
+      fr: "Les moteurs du passage à l'échelle : technologies big data pour les systèmes statistiques"
+    description:
+      en: >-
+        From raw files to trusted indicators: the six building blocks behind every data platform
+        (ingestion, storage, processing, search, serving, governance), the memory wall and three ways
+        past it, illustrated with Ookla tiles, WorldPop grids and NASA night-time lights.
+      fr: >-
+        Des fichiers bruts aux indicateurs fiables : les six briques de toute plateforme de données
+        (ingestion, stockage, traitement, recherche, diffusion, gouvernance), le mur de la mémoire et
+        trois façons de le franchir, illustrés avec les tuiles Ookla, les grilles WorldPop et les
+        lumières nocturnes de la NASA.
+
+  1400_engines-of-scale_FR_DI4A.pdf:
+    order: 3
+    download: Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems
+    title:
+      en: "Engines of scale: big data technologies for statistical systems"
+      fr: "Les moteurs du passage à l'échelle : technologies big data pour les systèmes statistiques"
+    description:
+      en: >-
+        French version. The six building blocks of a big-data platform for official statistics and
+        the tools that implement them.
+      fr: >-
+        Des fichiers bruts aux indicateurs fiables : les six briques de toute plateforme de données
+        (ingestion, stockage, traitement, recherche, diffusion, gouvernance), le mur de la mémoire et
+        trois façons de le franchir, illustrés avec les tuiles Ookla, les grilles WorldPop et les
+        lumières nocturnes de la NASA.
+
+  1445_hands-on-part-1_EN_DI4A.ipynb:
+    order: 4
+    download: Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab
+    title:
+      en: "Lab — Ookla at scale with Elasticsearch and Kibana"
+      fr: "Lab — Ookla à l'échelle avec Elasticsearch et Kibana"
+    description:
+      en: >-
+        Start an Elasticsearch and Kibana cluster, index Ookla performance tiles with the geo_shape
+        type, understand quadkeys and mappings, cross connectivity with WorldPop population and
+        publish a presentation-ready Kibana dashboard. Runs on Colab, Kaggle or locally.
+      fr: >-
+        Démarrez un cluster Elasticsearch et Kibana, indexez les tuiles de performance Ookla avec le
+        type geo_shape, comprenez les quadkeys et les mappings, croisez la connectivité avec la
+        population WorldPop et publiez un tableau de bord Kibana prêt à présenter. Fonctionne sur
+        Colab, Kaggle ou en local.
+
+  1445_hands-on-part-1_FR_DI4A.ipynb:
+    order: 4
+    download: Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab
+    title:
+      en: "Lab — Ookla at scale with Elasticsearch and Kibana"
+      fr: "Lab — Ookla à l'échelle avec Elasticsearch et Kibana"
+    description:
+      en: >-
+        French version of the Elastic Stack lab: index Ookla tiles, cross them with WorldPop and
+        publish a Kibana dashboard.
+      fr: >-
+        Démarrez un cluster Elasticsearch et Kibana, indexez les tuiles de performance Ookla avec le
+        type geo_shape, comprenez les quadkeys et les mappings, croisez la connectivité avec la
+        population WorldPop et publiez un tableau de bord Kibana prêt à présenter. Fonctionne sur
+        Colab, Kaggle ou en local.
+
+  1445_hands-on-part-1_EN_DI4A.pdf:
+    order: 5
+    download: Ookla_At_Scale_With_The_Elastic_Stack_Slides
+    title:
+      en: "Searching, aggregating and mapping big data with the Elastic Stack — slides"
+      fr: "Rechercher, agréger et cartographier le big data avec la suite Elastic — diapositives"
+    description:
+      en: >-
+        When does a laptop and pandas stop being enough? The big-data value chain in six building
+        blocks, and how Elasticsearch and Kibana search, aggregate and map Ookla Speedtest tiles into a
+        subnational connectivity indicator.
+      fr: >-
+        Quand un ordinateur portable et pandas ne suffisent-ils plus ? La chaîne de valeur big data en
+        six briques, et comment Elasticsearch et Kibana recherchent, agrègent et cartographient les
+        tuiles Ookla Speedtest en un indicateur de connectivité infranational.
+
+  1445_hands-on-part-1_FR_DI4A.pdf:
+    order: 5
+    download: Ookla_At_Scale_With_The_Elastic_Stack_Slides
+    title:
+      en: "Searching, aggregating and mapping big data with the Elastic Stack — slides"
+      fr: "Rechercher, agréger et cartographier le big data avec la suite Elastic — diapositives"
+    description:
+      en: >-
+        French version of the Elastic Stack deck accompanying the lab.
+      fr: >-
+        Quand un ordinateur portable et pandas ne suffisent-ils plus ? La chaîne de valeur big data en
+        six briques, et comment Elasticsearch et Kibana recherchent, agrègent et cartographient les
+        tuiles Ookla Speedtest en un indicateur de connectivité infranational.

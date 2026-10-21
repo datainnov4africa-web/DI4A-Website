@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# DI4A website — build configuration (read by scripts/build_site.py)
+# ---------------------------------------------------------------------------
+
+# GitHub repository hosting the site (owner/name). In GitHub Actions this value
+# is overridden automatically by the GITHUB_REPOSITORY variable.
+repo: datainnov4africa-web/DI4A-Website
+
+# Branch that receives the built site (used for Colab / nbviewer links).
+deploy_branch: gh-pages
+
+# Public URL of the site. Leave empty to derive it from `repo`
+# (https://<owner>.github.io/<name>/).
+base_url: ""
+
+# Suffix appended to every downloadable file name.
+download_suffix: _AfDB_DI4A
+
+# Words that must never appear in a download name (events, places, dates).
+# Matching is case-insensitive and applies to whole words; patterns are regexes.
+forbidden_terms:
+  - 'ATI\d*'
+  - 'STG\d*'
+  - 'BigData|Big_Data'
+  - 'Mauritius|Maurice|Abidjan|Tunis|Nairobi|Port_Louis|Dakar|Accra|Addis|Kigali|Cairo|Rabat|Lagos|Johannesburg|Ebene'
+  - 'Workshop|Atelier|Seminar|Seminaire|Conference|Session|Seance'
+  - '(19|20)\d{2}'
+  - '\d{3,4}'              # session time codes such as 1045 or 1430
+  - 'January|February|March|April|May|June|July|August|September|October|November|December'
+  - 'Janvier|Fevrier|Mars|Avril|Mai|Juin|Juillet|Aout|Septembre|Octobre|Novembre|Decembre'
+
+# Image credits displayed in the footer (any list of {label, url}).
+image_credits:
+  - label: "NASA Earth Observatory — Black Marble 2016 (public domain)"
+    url: "https://earthobservatory.nasa.gov/features/NightLights"
+  - label: "DI4A robot avatar © African Development Bank"
+    url: "https://www.afdb.org"

@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "lang_name": "English",
+    "site_title": "Data Innovation for Africa — DI4A",
+    "site_desc": "Open training resources on data science, Earth observation and AI for Africa, prepared by the African Development Bank's Data Innovation for Africa (DI4A) team."
+  },
+  "a11y": {
+    "skip": "Skip to main content",
+    "menu": "Open menu",
+    "close_menu": "Close menu",
+    "lang_switch": "Language",
+    "home_link": "DI4A — home",
+    "search_results": "Search results",
+    "loading": "Loading…",
+    "to_top": "Back to top"
+  },
+  "nav": {
+    "home": "Home",
+    "themes": "Themes",
+    "resources": "Resources",
+    "about": "About"
+  },
+  "lang": {
+    "en": "EN",
+    "fr": "FR",
+    "switch_to_en": "Switch to English",
+    "switch_to_fr": "Passer en français"
+  },
+  "hero": {
+    "kicker": "African Development Bank · Data Innovation for Africa",
+    "title": "Data skills for Africa's statistical systems",
+    "subtitle": "Hands-on labs, presentations and course materials on data science, Earth observation and artificial intelligence, open to statisticians, analysts and decision-makers across the continent.",
+    "cta": "Explore the themes",
+    "cta2": "Browse all resources",
+    "avatar_alt": "The DI4A robot avatar pointing at a data map of Africa",
+    "badge_open": "Free & open",
+    "badge_bilingual": "English · French",
+    "badge_colab": "Runs in Google Colab"
+  },
+  "stats": {
+    "title": "Key figures",
+    "themes": "Themes",
+    "labs": "Hands-on labs",
+    "presentations": "Presentations & guides",
+    "updated": "Last update"
+  },
+  "themes": {
+    "title": "Explore by theme",
+    "subtitle": "Each theme bundles labs (Jupyter notebooks) and presentations (PDF) that you can preview, run in Google Colab or download.",
+    "explore": "Open the theme",
+    "resources": "{n} resources",
+    "resource": "{n} resource",
+    "labs": "{n} labs",
+    "lab": "{n} lab",
+    "presentations": "{n} presentations",
+    "presentation": "{n} presentation",
+    "empty": "No theme published yet."
+  },
+  "resources": {
+    "title": "All resources",
+    "subtitle": "Search across every theme, in English and French.",
+    "theme_title": "Documents in this theme"
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search titles and descriptions…",
+    "clear": "Clear search",
+    "type_label": "Document type",
+    "type_all": "All types",
+    "type_lab": "Labs",
+    "type_presentation": "Presentations",
+    "lang_label": "Document language",
+    "lang_all": "All languages",
+    "lang_en": "English",
+    "lang_fr": "French",
+    "count": "{n} documents",
+    "count_one": "{n} document",
+    "none": "No document matches your search.",
+    "reset": "Reset filters"
+  },
+  "doc": {
+    "lab": "Lab",
+    "presentation": "Presentation",
+    "notebook": "Jupyter notebook",
+    "pdf": "PDF document",
+    "updated": "Updated",
+    "size": "Size",
+    "theme": "Theme",
+    "preview": "Preview",
+    "download": "Download",
+    "view": "View",
+    "colab": "Open in Colab",
+    "download_title": "Download {name}",
+    "view_title": "View the notebook on nbviewer (new tab)",
+    "colab_title": "Open the notebook in Google Colab (new tab)",
+    "preview_title": "Preview the PDF in the built-in viewer",
+    "lang_en": "English",
+    "lang_fr": "French",
+    "bilingual": "Available in English and French",
+    "both": "EN · FR",
+    "version_lang": "Document language",
+    "zip": "Both versions (ZIP)",
+    "zip_title": "Download the English and French versions in one ZIP archive",
+    "zip_busy": "Preparing the archive…"
+  },
+  "how": {
+    "title": "How to use these resources",
+    "step1_title": "Pick a theme",
+    "step1_text": "Each theme gathers labs and presentations on one topic, with a short description of every document.",
+    "step2_title": "Run or read",
+    "step2_text": "Notebooks open directly in Google Colab, no installation needed. PDFs open in the built-in viewer.",
+    "step3_title": "Reuse and cite",
+    "step3_text": "Download the files, adapt them to your institution and credit the source: AfDB – Data Innovation for Africa."
+  },
+  "about": {
+    "title": "About Data Innovation for Africa",
+    "text1": "Data Innovation for Africa (DI4A) is an initiative of the African Development Bank's Statistics Department. It helps national statistical offices, central banks and public institutions harness new data sources — satellite imagery, big data, artificial intelligence — to produce timelier, more granular statistics for policy.",
+    "text2": "This site shares the training material produced by the DI4A team: reproducible notebooks, presentations and step-by-step guides. Everything is free to reuse with attribution.",
+    "pillar1": "Reproducible",
+    "pillar1_text": "Every lab runs end-to-end from a single parameter, in the cloud or on your laptop.",
+    "pillar2": "Bilingual",
+    "pillar2_text": "Materials are provided in English and French whenever possible.",
+    "pillar3": "Open",
+    "pillar3_text": "Content under CC BY 4.0, code under MIT. Cite \"Source: AfDB – DI4A\"."
+  },
+  "theme": {
+    "back": "All themes",
+    "breadcrumb_home": "Home",
+    "stats_labs": "labs",
+    "stats_presentations": "presentations",
+    "not_found": "This theme does not exist or has been removed.",
+    "kicker": "Theme"
+  },
+  "preview": {
+    "title": "PDF preview",
+    "close": "Close the preview",
+    "prev": "Previous page",
+    "next": "Next page",
+    "page": "Page",
+    "of": "of",
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out",
+    "open_new": "Open in a new tab",
+    "download": "Download",
+    "loading": "Loading the document…",
+    "error": "The preview could not be loaded. You can still download the file."
+  },
+  "footer": {
+    "about_title": "Data Innovation for Africa",
+    "about_text": "Training resources from the African Development Bank's Data Innovation for Africa (DI4A) team, for Africa's statistical systems.",
+    "links_title": "Navigate",
+    "credits_title": "Image credits",
+    "license_title": "Licence",
+    "license_text": "Content: CC BY 4.0 · Code: MIT. Any reuse must credit \"Source: African Development Bank – Data Innovation for Africa (AfDB-DI4A)\".",
+    "repo": "Source repository on GitHub",
+    "rights": "© {year} African Development Bank – Data Innovation for Africa. The views expressed are those of the authors."
+  },
+  "notfound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has moved.",
+    "cta": "Back to the home page"
+  }
+}

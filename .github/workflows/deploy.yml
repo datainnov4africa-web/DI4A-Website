@@ -1,0 +1,97 @@
+# ---------------------------------------------------------------------------
+# Build & deploy the DI4A website to GitHub Pages
+#
+# Triggered on every push to `main` (and manually). The job:
+#   1. scans content/ and generates data/catalog.json (scripts/build_site.py)
+#   2. copies the publishable documents under their descriptive names
+#   3. runs the unit tests
+#   4. publishes dist/ to the `gh-pages` branch, which GitHub Pages serves
+#   5. refreshes the catalogue tables of README.md on `main`
+#
+# One-time setup: Settings → Pages → Source: "Deploy from a branch",
+# Branch: gh-pages / (root).  See docs/DEPLOYMENT.md.
+# ---------------------------------------------------------------------------
+name: Build & deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history for "last updated" dates)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependency
+        run: pip install --quiet pyyaml
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build site (catalogue + renamed copies + theme pages)
+        run: python scripts/build_site.py --out dist --update-readme
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Summary
+        run: |
+          {
+            echo "### Catalogue"
+            python - <<'EOF'
+          import json
+          c = json.load(open("dist/data/catalog.json", encoding="utf-8"))
+          s = c["stats"]
+          print(f"- **{s['themes']}** themes, **{s['labs']}** labs, **{s['presentations']}** presentations")
+          for t in c["themes"]:
+              print(f"- {t['title']['en']} ({len(t['documents'])} documents)")
+              for d in t["documents"]:
+                  print(f"  - `{d['download_name']}`")
+          EOF
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload build artifact (for inspection)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: dist
+          retention-days: 7
+
+      - name: Deploy to gh-pages
+        if: github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "deploy: ${{ github.sha }}"
+
+      - name: Commit refreshed README catalogue (if changed)
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: refresh catalogue tables [skip ci]"
+            git push
+          fi

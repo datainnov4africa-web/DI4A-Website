@@ -1,0 +1,54 @@
+Copyright © 2026 African Development Bank (AfDB) – Data Innovation for Africa (DI4A).
+All rights reserved, except as licensed below.
+
+MANDATORY SOURCE ATTRIBUTION
+Any use, reproduction, adaptation, translation or redistribution of this material — source code, texts,
+figures, maps, tables, derived data and the dashboard — in whole or in part, must credit the source as follows:
+
+    Source: African Development Bank – Data Innovation for Africa (AfDB-DI4A)
+    (in French: Source : Banque africaine de développement – Data Innovation for Africa (AfDB-DI4A))
+
+The credit must appear visibly next to the reused element (caption, slide, page, footer or metadata) and must
+state whether changes were made. It must not suggest that AfDB-DI4A endorses the user or the use.
+
+1. Content (texts, figures, maps, tables, derived data, dashboard) is licensed under the Creative Commons
+   Attribution 4.0 International licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/legalcode
+   The credit above is the attribution requested by the Licensor under section 3(a)(1)(A)(i) of CC BY 4.0.
+2. Source code is licensed under the MIT License below. The copyright notice above, including the mandatory
+   source attribution, shall be included in all copies or substantial portions of the Software.
+3. Third-party data (NASA, NOAA/EOG, ESA/Copernicus, European Commission JRC, World Bank, geoBoundaries,
+   OpenStreetMap, ...) remain under the licences of their producers, listed in the README. They must be cited
+   in addition to AfDB-DI4A.
+4. The estimates are experimental and do not constitute official statistics.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----------------------------------------------------------------------------------------------------------------
+VERSION FRANÇAISE (à titre informatif — la version anglaise fait foi)
+
+Copyright © 2026 Banque africaine de développement (BAD) – Data Innovation for Africa (DI4A).
+MENTION OBLIGATOIRE DE LA SOURCE : toute utilisation, reproduction, adaptation, traduction ou diffusion de ce
+matériel — code, textes, figures, cartes, tableaux, données dérivées et tableau de bord —, en tout ou en partie,
+doit mentionner la source sous la forme :
+
+    Source : Banque africaine de développement – Data Innovation for Africa (AfDB-DI4A)
+
+La mention doit figurer de façon visible à côté de l'élément réutilisé (légende, diapositive, page, pied de page
+ou métadonnées) et indiquer si des modifications ont été apportées. Elle ne doit pas laisser entendre que
+l'AfDB-DI4A cautionne l'utilisateur ou l'usage qui est fait du matériel. Contenus : CC BY 4.0. Code : licence MIT
+(la notice ci-dessus, mention de la source comprise, doit être conservée). Données de tiers : licences de leurs
+producteurs, à citer en plus de l'AfDB-DI4A. Les estimations sont expérimentales et ne constituent pas des
+statistiques officielles.

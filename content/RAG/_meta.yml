@@ -1,0 +1,127 @@
+# ---------------------------------------------------------------------------
+# Theme metadata — Retrieval-Augmented Generation (folder: content/RAG)
+# ---------------------------------------------------------------------------
+order: 5
+icon: chat
+cover: _cover.svg
+
+title:
+  en: Generative AI & RAG Assistants
+  fr: IA générative et assistants RAG
+
+description:
+  en: >-
+    Build an assistant that reads your institution's own publications and answers with the document,
+    section and page, checks the figures it quotes and says "I don't know" when the answer is not
+    there. These notebooks compare keyword, semantic and hybrid retrieval, handle four languages in
+    one collection and show how to keep unpublished material confidential.
+  fr: >-
+    Construisez un assistant qui lit les publications de votre institution et répond en citant le
+    document, la section et la page, vérifie les chiffres qu'il cite et dit « je ne sais pas » quand
+    l'information est absente. Ces notebooks comparent la recherche par mots-clés, sémantique et
+    hybride, gèrent quatre langues dans une même collection et montrent comment protéger les
+    documents non publiés.
+
+documents:
+
+  ATI2026_AfDB_RAG_hands-on_EN.ipynb:
+    group: rag-hands-on-lab          # pairs the EN and FR versions in one card
+    order: 1
+    download: RAG_Assistant_For_Statistical_Publications_Hands_On_Lab
+    title:
+      en: "Hands-on lab — Query your institution's documents with a RAG assistant"
+      fr: "Lab pratique — Interroger les documents de votre institution avec un assistant RAG"
+    description:
+      en: >-
+        Load a collection of PDF publications, prepare it and ask questions in three cells. Then work
+        through four exercises: build your assistant, ask and verify, compare retrieval methods
+        (BM25, embeddings, hybrid, reranking) and handle out-of-scope questions. Works even without a
+        language model.
+      fr: >-
+        Chargez une collection de publications PDF, préparez-la et posez vos questions en trois
+        cellules. Puis quatre exercices : créer votre assistant, interroger et vérifier, comparer les
+        méthodes de recherche (BM25, embeddings, hybride, reclassement) et gérer les questions hors
+        champ. Fonctionne même sans modèle de langage.
+
+  ATI2026_BAD_RAG_atelier_FR.ipynb:
+    group: rag-hands-on-lab          # pairs the EN and FR versions in one card
+    order: 1
+    download: RAG_Assistant_For_Statistical_Publications_Hands_On_Lab
+    title:
+      en: "Hands-on lab — Query your institution's documents with a RAG assistant"
+      fr: "Lab pratique — Interroger les documents de votre institution avec un assistant RAG"
+    description:
+      en: >-
+        French version of the hands-on lab: load PDF publications, ask grounded questions in three
+        cells, then four exercises on building, verifying, comparing retrieval methods and handling
+        out-of-scope questions.
+      fr: >-
+        Chargez une collection de publications PDF, préparez-la et posez vos questions en trois
+        cellules. Puis quatre exercices : créer votre assistant, interroger et vérifier, comparer les
+        méthodes de recherche (BM25, embeddings, hybride, reclassement) et gérer les questions hors
+        champ. Fonctionne même sans modèle de langage.
+
+  ATI2026_AfDB_RAG_multilingual_EN.ipynb:
+    group: rag-multilingual-lab          # pairs the EN and FR versions in one card
+    order: 2
+    download: Multilingual_RAG_Assistant_English_French_Spanish_Portuguese
+    title:
+      en: "Companion lab — A multilingual RAG assistant (EN, FR, ES, PT)"
+      fr: "Lab compagnon — Un assistant RAG multilingue (EN, FR, ES, PT)"
+    description:
+      en: >-
+        One collection, four languages: index English, French, Spanish and Portuguese publications
+        together, ask in any language and get a grounded, cited answer. Includes language detection,
+        multilingual embeddings and cross-language evaluation.
+      fr: >-
+        Une collection, quatre langues : indexez ensemble des publications en anglais, français,
+        espagnol et portugais, interrogez dans n'importe quelle langue et obtenez une réponse sourcée
+        et citée. Avec détection de langue, embeddings multilingues et évaluation inter-langues.
+
+  ATI2026_BAD_RAG_multilingue_FR.ipynb:
+    group: rag-multilingual-lab          # pairs the EN and FR versions in one card
+    order: 2
+    download: Multilingual_RAG_Assistant_English_French_Spanish_Portuguese
+    title:
+      en: "Companion lab — A multilingual RAG assistant (EN, FR, ES, PT)"
+      fr: "Lab compagnon — Un assistant RAG multilingue (EN, FR, ES, PT)"
+    description:
+      en: >-
+        French version of the multilingual companion lab: index publications in four languages
+        together and get grounded, cited answers in the language of the question.
+      fr: >-
+        Une collection, quatre langues : indexez ensemble des publications en anglais, français,
+        espagnol et portugais, interrogez dans n'importe quelle langue et obtenez une réponse sourcée
+        et citée. Avec détection de langue, embeddings multilingues et évaluation inter-langues.
+
+  ATI2026_Groq_Gemini_API_keys_EN.pdf:
+    group: llm-api-keys-guide          # pairs the EN and FR versions in one card
+    order: 4
+    download: Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step
+    title:
+      en: "Two free API keys: Groq and Gemini, step by step"
+      fr: "Deux clés API gratuites : Groq et Gemini, pas à pas"
+    description:
+      en: >-
+        Five minutes, no credit card: how to create a Groq key and a Gemini key, where to store them
+        safely and how to use them in the notebooks. One key is enough; two is safer.
+      fr: >-
+        Cinq minutes, sans carte bancaire : comment créer une clé Groq et une clé Gemini, où les
+        conserver en sécurité et comment les utiliser dans les notebooks. Une clé suffit ; deux,
+        c'est plus sûr.
+
+  ATI2026_Groq_Gemini_cles_API_FR.pdf:
+    group: llm-api-keys-guide          # pairs the EN and FR versions in one card
+    order: 4
+    download: Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step
+    title:
+      en: "Two free API keys: Groq and Gemini, step by step"
+      fr: "Deux clés API gratuites : Groq et Gemini, pas à pas"
+    description:
+      en: >-
+        French version. How to create a Groq key and a Gemini key in five minutes, without a credit
+        card, and store them safely.
+      fr: >-
+        Cinq minutes, sans carte bancaire : comment créer une clé Groq et une clé Gemini, où les
+        conserver en sécurité et comment les utiliser dans les notebooks. Une clé suffit ; deux,
+        c'est plus sûr.
