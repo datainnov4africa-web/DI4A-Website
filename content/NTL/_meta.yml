@@ -69,6 +69,42 @@ documents:
         mesurent pas, traiter le halo, les torchères, la saisonnalité et les ruptures de capteur, puis
         construire et valider des séries nationales et infranationales.
 
+  NTL_series_AfDB-DI4A_EN.pdf:
+    order: 2
+    download: Night_Time_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks
+    title:
+      en: "Night-time lights: from satellite to statistics — the three-notebook series"
+      fr: "Lumières nocturnes : du satellite aux statistiques — la série de trois notebooks"
+    description:
+      en: >-
+        The guide to the three labs: why night lights measure activity, how to collect the right NASA
+        Black Marble files, open and decode them, clip them to a country, then analyse trends,
+        regions, GDP, shocks and industrial zones, publish a dashboard with its reproducibility
+        manifest, and check every figure before release. One ISO3 code in, a public dashboard out.
+      fr: >-
+        Le guide des trois labs : pourquoi les lumières nocturnes mesurent l'activité, comment
+        collecter les bons fichiers NASA Black Marble, les ouvrir et les décoder, les découper sur un
+        pays, puis analyser tendances, régions, PIB, chocs et zones industrielles, publier un tableau
+        de bord avec son manifeste de reproductibilité, et vérifier chaque chiffre avant diffusion.
+        Un code ISO3 en entrée, un tableau de bord public en sortie.
+
+  NTL_series_AfDB-DI4A_FR.pdf:
+    order: 2
+    download: Night_Time_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks
+    title:
+      en: "Night-time lights: from satellite to statistics — the three-notebook series"
+      fr: "Lumières nocturnes : du satellite aux statistiques — la série de trois notebooks"
+    description:
+      en: >-
+        French version of the guide to the three-notebook series: collect, explore and understand,
+        analyse and publish.
+      fr: >-
+        Le guide des trois labs : pourquoi les lumières nocturnes mesurent l'activité, comment
+        collecter les bons fichiers NASA Black Marble, les ouvrir et les décoder, les découper sur un
+        pays, puis analyser tendances, régions, PIB, chocs et zones industrielles, publier un tableau
+        de bord avec son manifeste de reproductibilité, et vérifier chaque chiffre avant diffusion.
+        Un code ISO3 en entrée, un tableau de bord public en sortie.
+
   night-time-lights_EN_DI4A.pdf:
     order: 2
     download: Night_Time_Lights_Concepts_Instruments_And_Artefacts
