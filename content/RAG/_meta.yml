@@ -67,7 +67,7 @@ documents:
         fonctionnement, preuves, évolution du RAG, techniques avancées et production (évaluation,
         sécurité, pile technologique), avec références.
 
-  AfDB_DI4A_RAG_hands-on_EN.ipynb:
+  AfDB_DI4A_RAG_hands_on_EN.ipynb:
     group: rag-hands-on-lab          # pairs the EN and FR versions in one card
     order: 2
     download: RAG_Assistant_For_Statistical_Publications_Hands_On_Lab
