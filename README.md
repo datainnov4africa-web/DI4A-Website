@@ -41,7 +41,7 @@ The tables below are regenerated automatically by the deployment workflow.
 | **Night-Time Lights & Earth Observation** | 3 | 5 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/) |
 | **Connectivity Data & Big Data at Scale** | 2 | 3 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/) |
 | **Price Statistics & Alternative Data for the CPI** | 1 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/](https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/) |
-| **Generative AI & RAG Assistants** | 2 | 1 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
+| **Generative AI & RAG Assistants** | 2 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
 
 <details><summary><b>Data Innovation Framework & Maturity Model</b> — 2 documents</summary>
 
@@ -81,11 +81,12 @@ The tables below are regenerated automatically by the deployment workflow.
 
 </details>
 
-<details><summary><b>Generative AI & RAG Assistants</b> — 3 documents</summary>
+<details><summary><b>Generative AI & RAG Assistants</b> — 4 documents</summary>
 
-- **Lab** — Hands-on lab — Query your institution's documents with a RAG assistant — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb) <sub>(274.7 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb) <sub>(287.6 KB)</sub>
-- **Lab** — Companion lab — A multilingual RAG assistant (EN, FR, ES, PT) — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb) <sub>(336.5 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb) <sub>(372.5 KB)</sub>
-- **Presentation** — Two free API keys: Groq and Gemini, step by step — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf) <sub>(369.5 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf) <sub>(380.6 KB)</sub>
+- **Presentation** — Query your institution's documents with RAG — concepts, hands-on guide and reference briefing — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_EN_AfDB_DI4A.pdf) <sub>(827.1 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_FR_AfDB_DI4A.pdf) <sub>(834.7 KB)</sub>
+- **Lab** — Hands-on lab — Query your institution's documents with a RAG assistant — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb) <sub>(270.9 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb) <sub>(283.6 KB)</sub>
+- **Lab** — Companion lab — A multilingual RAG assistant (EN, FR, ES, PT) — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb) <sub>(332.7 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb) <sub>(368.5 KB)</sub>
+- **Presentation** — Two free API keys: Groq and Gemini, step by step — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf) <sub>(371.3 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf) <sub>(380.7 KB)</sub>
 
 </details>
 <!-- CATALOG-EN:END -->
@@ -178,7 +179,7 @@ Les tableaux ci-dessous sont régénérés automatiquement par le workflow de d�
 | **Lumières nocturnes et observation de la Terre** | 3 | 5 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/) |
 | **Données de connectivité et big data à l'échelle** | 2 | 3 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/) |
 | **Statistiques des prix et données alternatives pour l'IPC** | 1 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/](https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/) |
-| **IA générative et assistants RAG** | 2 | 1 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
+| **IA générative et assistants RAG** | 2 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
 
 <details><summary><b>Cadre d'innovation des données et modèle de maturité</b> — 2 documents</summary>
 
@@ -218,11 +219,12 @@ Les tableaux ci-dessous sont régénérés automatiquement par le workflow de d�
 
 </details>
 
-<details><summary><b>IA générative et assistants RAG</b> — 3 documents</summary>
+<details><summary><b>IA générative et assistants RAG</b> — 4 documents</summary>
 
-- **Lab** — Lab pratique — Interroger les documents de votre institution avec un assistant RAG — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb) <sub>(274.7 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb) <sub>(287.6 KB)</sub>
-- **Lab** — Lab compagnon — Un assistant RAG multilingue (EN, FR, ES, PT) — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb) <sub>(336.5 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb) <sub>(372.5 KB)</sub>
-- **Présentation** — Deux clés API gratuites : Groq et Gemini, pas à pas — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf) <sub>(369.5 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf) <sub>(380.6 KB)</sub>
+- **Présentation** — Interroger les documents de votre institution avec le RAG — concepts, guide pratique et dossier de référence — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_EN_AfDB_DI4A.pdf) <sub>(827.1 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_FR_AfDB_DI4A.pdf) <sub>(834.7 KB)</sub>
+- **Lab** — Lab pratique — Interroger les documents de votre institution avec un assistant RAG — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb) <sub>(270.9 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb) <sub>(283.6 KB)</sub>
+- **Lab** — Lab compagnon — Un assistant RAG multilingue (EN, FR, ES, PT) — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb) <sub>(332.7 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb) <sub>(368.5 KB)</sub>
+- **Présentation** — Deux clés API gratuites : Groq et Gemini, pas à pas — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf) <sub>(371.3 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf) <sub>(380.7 KB)</sub>
 
 </details>
 <!-- CATALOG-FR:END -->

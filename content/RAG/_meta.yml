@@ -13,20 +13,63 @@ description:
   en: >-
     Build an assistant that reads your institution's own publications and answers with the document,
     section and page, checks the figures it quotes and says "I don't know" when the answer is not
-    there. These notebooks compare keyword, semantic and hybrid retrieval, handle four languages in
-    one collection and show how to keep unpublished material confidential.
+    there. A presentation deck sets out the concepts, the evidence and the production practices;
+    two notebooks compare keyword, semantic and hybrid retrieval, handle four languages in one
+    collection and show how to keep unpublished material confidential.
   fr: >-
     Construisez un assistant qui lit les publications de votre institution et répond en citant le
     document, la section et la page, vérifie les chiffres qu'il cite et dit « je ne sais pas » quand
-    l'information est absente. Ces notebooks comparent la recherche par mots-clés, sémantique et
+    l'information est absente. Une présentation pose les concepts, les preuves et les bonnes
+    pratiques de production ; deux notebooks comparent la recherche par mots-clés, sémantique et
     hybride, gèrent quatre langues dans une même collection et montrent comment protéger les
     documents non publiés.
 
 documents:
 
-  ATI2026_AfDB_RAG_hands-on_EN.ipynb:
-    group: rag-hands-on-lab          # pairs the EN and FR versions in one card
+  AfDB_DI4A_RAG_session_slides_EN.pdf:
+    group: rag-course-deck            # pairs the EN and FR decks whose file names differ
     order: 1
+    download: RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing
+    title:
+      en: "Query your institution's documents with RAG — concepts, hands-on guide and reference briefing"
+      fr: "Interroger les documents de votre institution avec le RAG — concepts, guide pratique et dossier de référence"
+    description:
+      en: >-
+        Forty slides in two parts. First, the essentials: why a language model alone is not enough,
+        how indexing and querying work, sparse, dense and hybrid retrieval, the augmented prompt, a
+        three-minute set-up and four exercises that follow the notebook. Then a self-study briefing
+        in six sections: foundations, how it works, evidence, evolution of RAG, advanced techniques,
+        and production (evaluation, security, technology stack), with references.
+      fr: >-
+        Quarante diapositives en deux parties. D'abord l'essentiel : pourquoi un modèle de langage
+        seul ne suffit pas, comment fonctionnent l'indexation et l'interrogation, la recherche creuse,
+        dense et hybride, le prompt augmenté, une mise en route en trois minutes et quatre exercices
+        qui suivent le notebook. Puis un dossier d'autoformation en six sections : fondements,
+        fonctionnement, preuves, évolution du RAG, techniques avancées et production (évaluation,
+        sécurité, pile technologique), avec références.
+
+  AfDB_DI4A_RAG_seance_diapos_FR.pdf:
+    group: rag-course-deck            # pairs the EN and FR decks whose file names differ
+    order: 1
+    download: RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing
+    title:
+      en: "Query your institution's documents with RAG — concepts, hands-on guide and reference briefing"
+      fr: "Interroger les documents de votre institution avec le RAG — concepts, guide pratique et dossier de référence"
+    description:
+      en: >-
+        French version of the deck: the essentials of RAG, a three-minute set-up, four exercises and
+        a six-section self-study briefing from foundations to production.
+      fr: >-
+        Quarante diapositives en deux parties. D'abord l'essentiel : pourquoi un modèle de langage
+        seul ne suffit pas, comment fonctionnent l'indexation et l'interrogation, la recherche creuse,
+        dense et hybride, le prompt augmenté, une mise en route en trois minutes et quatre exercices
+        qui suivent le notebook. Puis un dossier d'autoformation en six sections : fondements,
+        fonctionnement, preuves, évolution du RAG, techniques avancées et production (évaluation,
+        sécurité, pile technologique), avec références.
+
+  AfDB_DI4A_RAG_hands-on_EN.ipynb:
+    group: rag-hands-on-lab          # pairs the EN and FR versions in one card
+    order: 2
     download: RAG_Assistant_For_Statistical_Publications_Hands_On_Lab
     title:
       en: "Hands-on lab — Query your institution's documents with a RAG assistant"
@@ -43,9 +86,9 @@ documents:
         méthodes de recherche (BM25, embeddings, hybride, reclassement) et gérer les questions hors
         champ. Fonctionne même sans modèle de langage.
 
-  ATI2026_BAD_RAG_atelier_FR.ipynb:
+  AfDB_DI4A_RAG_pratique_FR.ipynb:
     group: rag-hands-on-lab          # pairs the EN and FR versions in one card
-    order: 1
+    order: 2
     download: RAG_Assistant_For_Statistical_Publications_Hands_On_Lab
     title:
       en: "Hands-on lab — Query your institution's documents with a RAG assistant"
@@ -61,9 +104,9 @@ documents:
         méthodes de recherche (BM25, embeddings, hybride, reclassement) et gérer les questions hors
         champ. Fonctionne même sans modèle de langage.
 
-  ATI2026_AfDB_RAG_multilingual_EN.ipynb:
+  AfDB_DI4A_RAG_multilingual_EN.ipynb:
     group: rag-multilingual-lab          # pairs the EN and FR versions in one card
-    order: 2
+    order: 3
     download: Multilingual_RAG_Assistant_English_French_Spanish_Portuguese
     title:
       en: "Companion lab — A multilingual RAG assistant (EN, FR, ES, PT)"
@@ -78,9 +121,9 @@ documents:
         espagnol et portugais, interrogez dans n'importe quelle langue et obtenez une réponse sourcée
         et citée. Avec détection de langue, embeddings multilingues et évaluation inter-langues.
 
-  ATI2026_BAD_RAG_multilingue_FR.ipynb:
+  AfDB_DI4A_RAG_multilingue_FR.ipynb:
     group: rag-multilingual-lab          # pairs the EN and FR versions in one card
-    order: 2
+    order: 3
     download: Multilingual_RAG_Assistant_English_French_Spanish_Portuguese
     title:
       en: "Companion lab — A multilingual RAG assistant (EN, FR, ES, PT)"
@@ -94,7 +137,7 @@ documents:
         espagnol et portugais, interrogez dans n'importe quelle langue et obtenez une réponse sourcée
         et citée. Avec détection de langue, embeddings multilingues et évaluation inter-langues.
 
-  ATI2026_Groq_Gemini_API_keys_EN.pdf:
+  AfDB_DI4A_Groq_Gemini_API_keys_EN.pdf:
     group: llm-api-keys-guide          # pairs the EN and FR versions in one card
     order: 4
     download: Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step
@@ -110,7 +153,7 @@ documents:
         conserver en sécurité et comment les utiliser dans les notebooks. Une clé suffit ; deux,
         c'est plus sûr.
 
-  ATI2026_Groq_Gemini_cles_API_FR.pdf:
+  AfDB_DI4A_Groq_Gemini_cles_API_FR.pdf:
     group: llm-api-keys-guide          # pairs the EN and FR versions in one card
     order: 4
     download: Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step
