@@ -1,0 +1,1343 @@
+{
+  "generated_at": "2026-10-29T04:20:44+00:00",
+  "site": {
+    "repo": "datainnov4africa-web/DI4A-Website",
+    "deploy_branch": "gh-pages",
+    "base_url": "https://datainnov4africa-web.github.io/DI4A-Website/",
+    "repo_url": "https://github.com/datainnov4africa-web/DI4A-Website",
+    "download_suffix": "_AfDB_DI4A",
+    "image_credits": [
+      {
+        "label": "NASA Earth Observatory — Black Marble 2016 (public domain)",
+        "url": "https://earthobservatory.nasa.gov/features/NightLights"
+      },
+      {
+        "label": "DI4A robot avatar © African Development Bank",
+        "url": "https://www.afdb.org"
+      }
+    ]
+  },
+  "stats": {
+    "themes": 5,
+    "labs": 7,
+    "presentations": 15,
+    "resources": 1,
+    "documents": 23,
+    "files": 44
+  },
+  "themes": [
+    {
+      "id": "framework",
+      "folder": "Framework",
+      "order": 1,
+      "icon": "layers",
+      "title": {
+        "en": "Data Innovation Framework & Maturity Model",
+        "fr": "Cadre d'innovation des données et modèle de maturité"
+      },
+      "description": {
+        "en": "The strategic foundation of DI4A: why official statistics in Africa must innovate, how to set up a data innovation lab inside a statistical office, and how to assess and grow its maturity with the African Development Bank's Data Innovation Maturity Model.",
+        "fr": "Le socle stratégique de DI4A : pourquoi la statistique officielle en Afrique doit innover, comment créer un laboratoire d'innovation des données au sein d'un institut de statistique, et comment évaluer et faire progresser sa maturité avec le modèle de maturité de l'innovation des données de la Banque africaine de développement."
+      },
+      "cover": "assets/img/covers/framework.svg",
+      "counts": {
+        "lab": 0,
+        "presentation": 2,
+        "resource": 0,
+        "files": 3
+      },
+      "documents": [
+        {
+          "id": "practical-guide-to-applying-the-afdbs-data-innovation-maturity-model",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en"
+          ],
+          "bilingual": false,
+          "title": {
+            "en": "Establishing a data innovation lab: a practical guide to applying the AfDB's Data Innovation Maturity Model",
+            "fr": "Créer un laboratoire d'innovation des données : guide pratique d'application du modèle de maturité de la BAD"
+          },
+          "description": {
+            "en": "An 80-page guide from the Statistics Department: the case for innovation in data and statistics, the components of a data innovation lab, the maturity model's dimensions and levels, and a step-by-step method to assess an institution and plan its progression.",
+            "fr": "Un guide de 80 pages du Département des statistiques : les raisons d'innover en matière de données et de statistiques, les composantes d'un laboratoire d'innovation des données, les dimensions et niveaux du modèle de maturité, et une méthode pas à pas pour évaluer une institution et planifier sa progression."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Establishing a data innovation lab: a practical guide to applying the AfDB's Data Innovation Maturity Model",
+              "description": "An 80-page guide from the Statistics Department: the case for innovation in data and statistics, the components of a data innovation lab, the maturity model's dimensions and levels, and a step-by-step method to assess an institution and plan its progression.",
+              "size": 2476274,
+              "size_human": "2.4 MB",
+              "updated": "2026-10-21",
+              "source": "content/Framework/1430_DI4A_practical_guide_to_applying_the_afdbs_data_innovation_maturity_model_EN.pdf",
+              "download_name": "Establishing_A_Data_Innovation_Lab_Practical_Guide_To_The_Maturity_Model_EN_AfDB_DI4A.pdf",
+              "file": "files/framework/Establishing_A_Data_Innovation_Lab_Practical_Guide_To_The_Maturity_Model_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/framework/Establishing_A_Data_Innovation_Lab_Practical_Guide_To_The_Maturity_Model_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/framework/Establishing_A_Data_Innovation_Lab_Practical_Guide_To_The_Maturity_Model_EN_AfDB_DI4A.pdf",
+                "preview": "files/framework/Establishing_A_Data_Innovation_Lab_Practical_Guide_To_The_Maturity_Model_EN_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "dil-presentation",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Establishing a data innovation lab — slides",
+            "fr": "Mettre en place un laboratoire d'innovation des données — diapositives"
+          },
+          "description": {
+            "en": "The guide in 25 slides: why official statistics must innovate, the objectives, pillars and functions of a data innovation lab, the twelve dimensions of the maturity model, lessons from the pilot countries and the way forward.",
+            "fr": "Le guide en 25 diapositives : pourquoi la statistique officielle doit innover, les objectifs, piliers et fonctions d'un laboratoire d'innovation des données, les douze dimensions du modèle de maturité, les leçons des pays pilotes et les perspectives."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Establishing a data innovation lab — slides",
+              "description": "The guide in 25 slides: why official statistics must innovate, the objectives, pillars and functions of a data innovation lab, the twelve dimensions of the maturity model, lessons from the pilot countries and the way forward.",
+              "size": 618176,
+              "size_human": "603.7 KB",
+              "updated": "2026-10-21",
+              "source": "content/Framework/Presentation_DIL_AfDB_EN.pdf",
+              "download_name": "Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_EN_AfDB_DI4A.pdf",
+              "file": "files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_EN_AfDB_DI4A.pdf",
+                "preview": "files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Mettre en place un laboratoire d'innovation des données — diapositives",
+              "description": "Le guide en 25 diapositives : pourquoi la statistique officielle doit innover, les objectifs, piliers et fonctions d'un laboratoire d'innovation des données, les douze dimensions du modèle de maturité, les leçons des pays pilotes et les perspectives.",
+              "size": 631291,
+              "size_human": "616.5 KB",
+              "updated": "2026-10-21",
+              "source": "content/Framework/Presentation_DIL_BAD_FR.pdf",
+              "download_name": "Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_FR_AfDB_DI4A.pdf",
+              "file": "files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_FR_AfDB_DI4A.pdf",
+                "preview": "files/framework/Establishing_A_Data_Innovation_Lab_Maturity_Model_Slides_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ntl",
+      "folder": "NTL",
+      "order": 2,
+      "icon": "satellite",
+      "title": {
+        "en": "Night-Time Lights & Earth Observation",
+        "fr": "Lumières nocturnes et observation de la Terre"
+      },
+      "description": {
+        "en": "Learn how satellite imagery of the Earth at night becomes a free, global and timely proxy for economic activity. From the NASA Black Marble archive to subnational indicators, these labs walk you through data collection, file anatomy, quality control and eight professional use cases for statistical offices and central banks.",
+        "fr": "Découvrez comment les images satellitaires de la Terre la nuit deviennent un indicateur gratuit, mondial et rapide de l'activité économique. De l'archive NASA Black Marble aux indicateurs infranationaux, ces labs vous guident à travers la collecte des données, l'anatomie des fichiers, le contrôle qualité et huit cas d'usage professionnels pour les instituts de statistique et les banques centrales."
+      },
+      "cover": "assets/img/covers/ntl.webp",
+      "counts": {
+        "lab": 3,
+        "presentation": 5,
+        "resource": 0,
+        "files": 16
+      },
+      "documents": [
+        {
+          "id": "night-time-lights",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Night-time lights: what darkness tells us",
+            "fr": "Lumières nocturnes : ce que l'obscurité nous apprend"
+          },
+          "description": {
+            "en": "Reading Africa's development from space. Concepts, instruments, artefacts and the approach of the hands-on labs: why light betrays human activity, what the DMSP and VIIRS sensors measure, and how raw radiance becomes a validated subnational indicator.",
+            "fr": "Lire le développement de l'Afrique depuis l'espace. Concepts, instruments, artefacts et démarche des labs : pourquoi la lumière trahit l'activité humaine, ce que mesurent les capteurs DMSP et VIIRS, et comment la radiance brute devient un indicateur infranational validé."
+          },
+          "updated": "2026-10-27",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Night-time lights: what darkness tells us",
+              "description": "Reading Africa's development from space. Concepts, instruments, artefacts and the approach of the hands-on labs: why light betrays human activity, what the DMSP and VIIRS sensors measure, and how raw radiance becomes a validated subnational indicator.",
+              "size": 1661511,
+              "size_human": "1.6 MB",
+              "updated": "2026-10-27",
+              "source": "content/NTL/night-time-lights_DI4A_EN.pdf",
+              "download_name": "Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_EN_AfDB_DI4A.pdf",
+              "file": "files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_EN_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lumières nocturnes : ce que l'obscurité nous apprend",
+              "description": "Lire le développement de l'Afrique depuis l'espace. Concepts, instruments, artefacts et démarche des labs : pourquoi la lumière trahit l'activité humaine, ce que mesurent les capteurs DMSP et VIIRS, et comment la radiance brute devient un indicateur infranational validé.",
+              "size": 1687527,
+              "size_human": "1.6 MB",
+              "updated": "2026-10-27",
+              "source": "content/NTL/night-time-lights_DI4A_FR.pdf",
+              "download_name": "Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_FR_AfDB_DI4A.pdf",
+              "file": "files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_FR_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Night_Time_Lights_What_Darkness_Tells_Us_Concepts_And_Instruments_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "ntl-labs",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Night lights: from satellite to statistics — the three-notebook series",
+            "fr": "Lumières nocturnes : du satellite aux statistiques — la série de trois notebooks"
+          },
+          "description": {
+            "en": "The guide to the three labs: why lights measure activity, how to collect the right NASA Black Marble files, open and decode them, clip them to a country, then analyse trends, regions, GDP, shocks and industrial zones, publish a dashboard with its reproducibility manifest, and check every number before release. One ISO3 code in, a public dashboard out.",
+            "fr": "Le guide des trois labs : pourquoi les lumières mesurent l'activité, comment collecter les bons fichiers NASA Black Marble, les ouvrir et les décoder, les découper sur un pays, puis analyser tendances, régions, PIB, chocs et zones industrielles, publier un tableau de bord avec son manifeste de reproductibilité, et vérifier chaque chiffre avant diffusion. Un code ISO3 en entrée, un tableau de bord public en sortie."
+          },
+          "updated": "2026-10-27",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Night lights: from satellite to statistics — the three-notebook series",
+              "description": "The guide to the three labs: why lights measure activity, how to collect the right NASA Black Marble files, open and decode them, clip them to a country, then analyse trends, regions, GDP, shocks and industrial zones, publish a dashboard with its reproducibility manifest, and check every number before release. One ISO3 code in, a public dashboard out.",
+              "size": 980642,
+              "size_human": "957.7 KB",
+              "updated": "2026-10-27",
+              "source": "content/NTL/NTL_Labs_AfDB-DI4A_EN.pdf",
+              "download_name": "Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_EN_AfDB_DI4A.pdf",
+              "file": "files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_EN_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lumières nocturnes : du satellite aux statistiques — la série de trois notebooks",
+              "description": "Le guide des trois labs : pourquoi les lumières mesurent l'activité, comment collecter les bons fichiers NASA Black Marble, les ouvrir et les décoder, les découper sur un pays, puis analyser tendances, régions, PIB, chocs et zones industrielles, publier un tableau de bord avec son manifeste de reproductibilité, et vérifier chaque chiffre avant diffusion. Un code ISO3 en entrée, un tableau de bord public en sortie.",
+              "size": 995376,
+              "size_human": "972.0 KB",
+              "updated": "2026-10-27",
+              "source": "content/NTL/NTL_Labs_AfDB-DI4A_FR.pdf",
+              "download_name": "Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_FR_AfDB_DI4A.pdf",
+              "file": "files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_FR_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Night_Lights_Series_From_Satellite_To_Statistics_Three_Notebooks_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "ntl-hands-on-part-1",
+          "type": "lab",
+          "format": "ipynb",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Lab 1 — Data collection: NASA Black Marble (VNP46)",
+            "fr": "Lab 1 — Collecte des données : NASA Black Marble (VNP46)"
+          },
+          "description": {
+            "en": "Enter a single ISO3 country code and let the notebook do the rest: it derives the national extent, computes the VIIRS tiles, queries NASA's catalogue for the four Black Marble products, builds an availability inventory and downloads a verified, size-checked sample.",
+            "fr": "Saisissez un seul code pays ISO3 et laissez le notebook faire le reste : il déduit l'emprise nationale, calcule les tuiles VIIRS, interroge le catalogue de la NASA pour les quatre produits Black Marble, dresse un inventaire de disponibilité et télécharge un échantillon vérifié."
+          },
+          "updated": "2026-10-26",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Lab 1 — Data collection: NASA Black Marble (VNP46)",
+              "description": "Enter a single ISO3 country code and let the notebook do the rest: it derives the national extent, computes the VIIRS tiles, queries NASA's catalogue for the four Black Marble products, builds an availability inventory and downloads a verified, size-checked sample.",
+              "size": 153318,
+              "size_human": "149.7 KB",
+              "updated": "2026-10-26",
+              "source": "content/NTL/NTL_hands-on-part-1_EN.ipynb",
+              "download_name": "Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_EN_AfDB_DI4A.ipynb",
+              "file": "files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_EN_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_EN_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_EN_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_EN_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_EN_AfDB_DI4A.ipynb"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lab 1 — Collecte des données : NASA Black Marble (VNP46)",
+              "description": "Saisissez un seul code pays ISO3 et laissez le notebook faire le reste : il déduit l'emprise nationale, calcule les tuiles VIIRS, interroge le catalogue de la NASA pour les quatre produits Black Marble, dresse un inventaire de disponibilité et télécharge un échantillon vérifié.",
+              "size": 159502,
+              "size_human": "155.8 KB",
+              "updated": "2026-10-26",
+              "source": "content/NTL/NTL_hands-on-part-1_FR.ipynb",
+              "download_name": "Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_FR_AfDB_DI4A.ipynb",
+              "file": "files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_FR_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_FR_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_FR_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_FR_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_1_Data_Collection_NASA_Black_Marble_FR_AfDB_DI4A.ipynb"
+              }
+            }
+          }
+        },
+        {
+          "id": "ntl-hands-on-part-2",
+          "type": "lab",
+          "format": "ipynb",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Lab 2 — Anatomy of a Black Marble file (HDF5)",
+            "fr": "Lab 2 — Anatomie d'un fichier Black Marble (HDF5)"
+          },
+          "description": {
+            "en": "A Black Marble file is not an image but a binder of twenty integer tables, each with its own scale, fill value and quality flags. This lab opens the HDF5 file layer by layer and shows how to read it correctly before computing any indicator.",
+            "fr": "Un fichier Black Marble n'est pas une image mais un classeur d'une vingtaine de tableaux d'entiers, chacun avec son échelle, sa valeur de remplissage et ses indicateurs de qualité. Ce lab ouvre le fichier HDF5 couche par couche et montre comment le lire correctement avant tout calcul d'indicateur."
+          },
+          "updated": "2026-10-26",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Lab 2 — Anatomy of a Black Marble file (HDF5)",
+              "description": "A Black Marble file is not an image but a binder of twenty integer tables, each with its own scale, fill value and quality flags. This lab opens the HDF5 file layer by layer and shows how to read it correctly before computing any indicator.",
+              "size": 585941,
+              "size_human": "572.2 KB",
+              "updated": "2026-10-26",
+              "source": "content/NTL/NTL_hands-on-part-2_EN.ipynb",
+              "download_name": "Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_EN_AfDB_DI4A.ipynb",
+              "file": "files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_EN_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_EN_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_EN_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_EN_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_EN_AfDB_DI4A.ipynb"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lab 2 — Anatomie d'un fichier Black Marble (HDF5)",
+              "description": "Un fichier Black Marble n'est pas une image mais un classeur d'une vingtaine de tableaux d'entiers, chacun avec son échelle, sa valeur de remplissage et ses indicateurs de qualité. Ce lab ouvre le fichier HDF5 couche par couche et montre comment le lire correctement avant tout calcul d'indicateur.",
+              "size": 599804,
+              "size_human": "585.7 KB",
+              "updated": "2026-10-26",
+              "source": "content/NTL/NTL_hands-on-part-2_FR.ipynb",
+              "download_name": "Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_FR_AfDB_DI4A.ipynb",
+              "file": "files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_FR_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_FR_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_FR_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_FR_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_2_Anatomy_Of_A_Black_Marble_File_FR_AfDB_DI4A.ipynb"
+              }
+            }
+          }
+        },
+        {
+          "id": "ntl-hands-on-part-3",
+          "type": "lab",
+          "format": "ipynb",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Lab 3 — Night-time lights and economic activity",
+            "fr": "Lab 3 — Lumières nocturnes et activité économique"
+          },
+          "description": {
+            "en": "From pixels to policy: build sum-of-lights and lit-area indicators at national and subnational level, link them to GDP, shocks and electricity access, then validate the proxy against independent sources. Key messages are generated automatically with a confidence level.",
+            "fr": "Des pixels aux politiques publiques : construisez des indicateurs de somme des lumières et de surface éclairée aux niveaux national et infranational, reliez-les au PIB, aux chocs et à l'accès à l'électricité, puis validez l'indicateur avec des sources indépendantes. Les messages clés sont générés automatiquement avec un niveau de confiance."
+          },
+          "updated": "2026-10-27",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Lab 3 — Night-time lights and economic activity",
+              "description": "From pixels to policy: build sum-of-lights and lit-area indicators at national and subnational level, link them to GDP, shocks and electricity access, then validate the proxy against independent sources. Key messages are generated automatically with a confidence level.",
+              "size": 641293,
+              "size_human": "626.3 KB",
+              "updated": "2026-10-27",
+              "source": "content/NTL/NTL_hands-on-part-3_EN.ipynb",
+              "download_name": "Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_EN_AfDB_DI4A.ipynb",
+              "file": "files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_EN_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_EN_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_EN_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_EN_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_EN_AfDB_DI4A.ipynb"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lab 3 — Lumières nocturnes et activité économique",
+              "description": "Des pixels aux politiques publiques : construisez des indicateurs de somme des lumières et de surface éclairée aux niveaux national et infranational, reliez-les au PIB, aux chocs et à l'accès à l'électricité, puis validez l'indicateur avec des sources indépendantes. Les messages clés sont générés automatiquement avec un niveau de confiance.",
+              "size": 646023,
+              "size_human": "630.9 KB",
+              "updated": "2026-10-27",
+              "source": "content/NTL/NTL_hands-on-part-3_FR.ipynb",
+              "download_name": "Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_FR_AfDB_DI4A.ipynb",
+              "file": "files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_FR_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_FR_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_FR_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_FR_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ntl/Night_Time_Lights_Lab_3_Night_Lights_And_Economic_Activity_FR_AfDB_DI4A.ipynb"
+              }
+            }
+          }
+        },
+        {
+          "id": "nasa-earthdata-token-ntl",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Get a NASA Earthdata token for night-lights data",
+            "fr": "Obtenir un jeton NASA Earthdata pour les données de lumières nocturnes"
+          },
+          "description": {
+            "en": "Six steps to create a free NASA Earthdata account and a bearer token that unlocks the Black Marble archive (VNP46 products) used in the labs. Required before running Lab 1.",
+            "fr": "Six étapes pour créer un compte NASA Earthdata gratuit et un jeton d'accès qui ouvre l'archive Black Marble (produits VNP46) utilisée dans les labs. Indispensable avant le Lab 1."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Get a NASA Earthdata token for night-lights data",
+              "description": "Six steps to create a free NASA Earthdata account and a bearer token that unlocks the Black Marble archive (VNP46 products) used in the labs. Required before running Lab 1.",
+              "size": 442942,
+              "size_human": "432.6 KB",
+              "updated": "2026-10-21",
+              "source": "content/NTL/NASA_Earthdata_Token_NTL_EN_DI4A.pdf",
+              "download_name": "Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_EN_AfDB_DI4A.pdf",
+              "file": "files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_EN_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Obtenir un jeton NASA Earthdata pour les données de lumières nocturnes",
+              "description": "Six étapes pour créer un compte NASA Earthdata gratuit et un jeton d'accès qui ouvre l'archive Black Marble (produits VNP46) utilisée dans les labs. Indispensable avant le Lab 1.",
+              "size": 427039,
+              "size_human": "417.0 KB",
+              "updated": "2026-10-21",
+              "source": "content/NTL/NASA_Earthdata_Token_NTL_FR_DI4A.pdf",
+              "download_name": "Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_FR_AfDB_DI4A.pdf",
+              "file": "files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_FR_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Get_A_NASA_Earthdata_Token_For_Night_Lights_Data_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "gee",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Registering for Google Earth Engine — step-by-step guide",
+            "fr": "S'inscrire à Google Earth Engine — guide pas à pas"
+          },
+          "description": {
+            "en": "Six illustrated steps to register a Google Cloud project for non-commercial use of Google Earth Engine: organisation type, eligibility, plan selection, project description, API activation and project management.",
+            "fr": "Six étapes illustrées pour enregistrer un projet Google Cloud en usage non commercial de Google Earth Engine : type d'organisation, éligibilité, choix du plan, description du projet, activation de l'API et gestion du projet."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Registering for Google Earth Engine — step-by-step guide",
+              "description": "Six illustrated steps to register a Google Cloud project for non-commercial use of Google Earth Engine: organisation type, eligibility, plan selection, project description, API activation and project management.",
+              "size": 2046023,
+              "size_human": "2.0 MB",
+              "updated": "2026-10-21",
+              "source": "content/NTL/GEE_EN_DI4A.pdf",
+              "download_name": "Registering_For_Google_Earth_Engine_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+              "file": "files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "S'inscrire à Google Earth Engine — guide pas à pas",
+              "description": "Six étapes illustrées pour enregistrer un projet Google Cloud en usage non commercial de Google Earth Engine : type d'organisation, éligibilité, choix du plan, description du projet, activation de l'API et gestion du projet.",
+              "size": 2051662,
+              "size_human": "2.0 MB",
+              "updated": "2026-10-21",
+              "source": "content/NTL/GEE_FR_DI4A.pdf",
+              "download_name": "Registering_For_Google_Earth_Engine_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+              "file": "files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Registering_For_Google_Earth_Engine_Step_By_Step_Guide_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "github-api-key",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Generate a GitHub API key (personal access token)",
+            "fr": "Générer une clé API GitHub (jeton d'accès personnel)"
+          },
+          "description": {
+            "en": "Create a classic personal access token in six steps, from your profile settings to a stored token, and learn where GitHub fits in your data work: versioning notebooks, publishing dashboards and authenticating to the API.",
+            "fr": "Créez un jeton d'accès personnel classique en six étapes, des paramètres du profil au jeton enregistré, et situez GitHub dans votre travail sur les données : versionner les notebooks, publier des tableaux de bord et s'authentifier auprès de l'API."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Generate a GitHub API key (personal access token)",
+              "description": "Create a classic personal access token in six steps, from your profile settings to a stored token, and learn where GitHub fits in your data work: versioning notebooks, publishing dashboards and authenticating to the API.",
+              "size": 1403566,
+              "size_human": "1.3 MB",
+              "updated": "2026-10-21",
+              "source": "content/NTL/GitHub_API_Key_EN_DI4A.pdf",
+              "download_name": "Generate_A_GitHub_Personal_Access_Token_Step_By_Step_EN_AfDB_DI4A.pdf",
+              "file": "files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_EN_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Générer une clé API GitHub (jeton d'accès personnel)",
+              "description": "Créez un jeton d'accès personnel classique en six étapes, des paramètres du profil au jeton enregistré, et situez GitHub dans votre travail sur les données : versionner les notebooks, publier des tableaux de bord et s'authentifier auprès de l'API.",
+              "size": 1409078,
+              "size_human": "1.3 MB",
+              "updated": "2026-10-21",
+              "source": "content/NTL/GitHub_API_Key_FR_DI4A.pdf",
+              "download_name": "Generate_A_GitHub_Personal_Access_Token_Step_By_Step_FR_AfDB_DI4A.pdf",
+              "file": "files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_FR_AfDB_DI4A.pdf",
+                "preview": "files/ntl/Generate_A_GitHub_Personal_Access_Token_Step_By_Step_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ookla",
+      "folder": "Ookla",
+      "order": 3,
+      "icon": "globe",
+      "title": {
+        "en": "Connectivity Data & Big Data at Scale",
+        "fr": "Données de connectivité et big data à l'échelle"
+      },
+      "description": {
+        "en": "Turn hundreds of millions of crowdsourced Ookla Speedtest tiles into a population-weighted, subnational connectivity indicator with WorldPop. Along the way, discover the six building blocks of a big-data platform for official statistics and put the Elastic Stack to work: index, map and publish a presentation-ready dashboard from one country code.",
+        "fr": "Transformez des centaines de millions de tuiles Ookla Speedtest issues de mesures participatives en un indicateur de connectivité infranational pondéré par la population avec WorldPop. Au passage, découvrez les six briques d'une plateforme big data pour la statistique officielle et mettez la suite Elastic au travail : indexer, cartographier et publier un tableau de bord prêt à présenter à partir d'un seul code pays."
+      },
+      "cover": "assets/img/covers/ookla.svg",
+      "counts": {
+        "lab": 2,
+        "presentation": 3,
+        "resource": 0,
+        "files": 10
+      },
+      "documents": [
+        {
+          "id": "hands-on-ipynb",
+          "type": "lab",
+          "format": "ipynb",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Lab — Measuring the connectivity gap with Ookla Open Data and WorldPop",
+            "fr": "Lab — Mesurer la fracture de connectivité avec les données ouvertes Ookla et WorldPop"
+          },
+          "description": {
+            "en": "Give the notebook one country code and get back a published dashboard. In between it runs the whole data value chain: download Ookla Speedtest tiles, cross them with the WorldPop population grid, compute population-weighted download and upload speeds by region and publish the result.",
+            "fr": "Donnez un code pays au notebook et récupérez un tableau de bord publié. Entre les deux, il déroule toute la chaîne de valeur des données : téléchargement des tuiles Ookla Speedtest, croisement avec la grille de population WorldPop, calcul des débits pondérés par la population par région et publication du résultat."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Lab — Measuring the connectivity gap with Ookla Open Data and WorldPop",
+              "description": "Give the notebook one country code and get back a published dashboard. In between it runs the whole data value chain: download Ookla Speedtest tiles, cross them with the WorldPop population grid, compute population-weighted download and upload speeds by region and publish the result.",
+              "size": 255554,
+              "size_human": "249.6 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1045_hands-on_EN_DI4A.ipynb",
+              "download_name": "Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_EN_AfDB_DI4A.ipynb",
+              "file": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_EN_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_EN_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_EN_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_EN_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_EN_AfDB_DI4A.ipynb"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lab — Mesurer la fracture de connectivité avec les données ouvertes Ookla et WorldPop",
+              "description": "Donnez un code pays au notebook et récupérez un tableau de bord publié. Entre les deux, il déroule toute la chaîne de valeur des données : téléchargement des tuiles Ookla Speedtest, croisement avec la grille de population WorldPop, calcul des débits pondérés par la population par région et publication du résultat.",
+              "size": 263771,
+              "size_human": "257.6 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1045_hands-on_FR_DI4A.ipynb",
+              "download_name": "Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_FR_AfDB_DI4A.ipynb",
+              "file": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_FR_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_FR_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_FR_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_FR_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Lab_FR_AfDB_DI4A.ipynb"
+              }
+            }
+          }
+        },
+        {
+          "id": "hands-on-pdf",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Measuring the connectivity gap with Ookla Open Data — slides",
+            "fr": "Mesurer la fracture de connectivité avec les données ouvertes Ookla — diapositives"
+          },
+          "description": {
+            "en": "Why connectivity is a statistical question, what crowdsourced speed tests measure, and how to go from raw tiles to a population-weighted subnational indicator. The deck that accompanies the lab.",
+            "fr": "Pourquoi la connectivité est une question statistique, ce que mesurent les tests de débit participatifs, et comment passer des tuiles brutes à un indicateur infranational pondéré par la population. Le support qui accompagne le lab."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Measuring the connectivity gap with Ookla Open Data — slides",
+              "description": "Why connectivity is a statistical question, what crowdsourced speed tests measure, and how to go from raw tiles to a population-weighted subnational indicator. The deck that accompanies the lab.",
+              "size": 1019574,
+              "size_human": "995.7 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1045_hands-on_EN_DI4A.pdf",
+              "download_name": "Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_EN_AfDB_DI4A.pdf",
+              "file": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_EN_AfDB_DI4A.pdf",
+                "preview": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Mesurer la fracture de connectivité avec les données ouvertes Ookla — diapositives",
+              "description": "Pourquoi la connectivité est une question statistique, ce que mesurent les tests de débit participatifs, et comment passer des tuiles brutes à un indicateur infranational pondéré par la population. Le support qui accompagne le lab.",
+              "size": 1025101,
+              "size_human": "1001.1 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1045_hands-on_FR_DI4A.pdf",
+              "download_name": "Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_FR_AfDB_DI4A.pdf",
+              "file": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_FR_AfDB_DI4A.pdf",
+                "preview": "files/ookla/Connectivity_Gap_Ookla_Open_Data_And_WorldPop_Slides_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "engines-of-scale",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Engines of scale: big data technologies for statistical systems",
+            "fr": "Les moteurs du passage à l'échelle : technologies big data pour les systèmes statistiques"
+          },
+          "description": {
+            "en": "From raw files to trusted indicators: the six building blocks behind every data platform (ingestion, storage, processing, search, serving, governance), the memory wall and three ways past it, illustrated with Ookla tiles, WorldPop grids and NASA night-time lights.",
+            "fr": "Des fichiers bruts aux indicateurs fiables : les six briques de toute plateforme de données (ingestion, stockage, traitement, recherche, diffusion, gouvernance), le mur de la mémoire et trois façons de le franchir, illustrés avec les tuiles Ookla, les grilles WorldPop et les lumières nocturnes de la NASA."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Engines of scale: big data technologies for statistical systems",
+              "description": "From raw files to trusted indicators: the six building blocks behind every data platform (ingestion, storage, processing, search, serving, governance), the memory wall and three ways past it, illustrated with Ookla tiles, WorldPop grids and NASA night-time lights.",
+              "size": 1095713,
+              "size_human": "1.0 MB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1400_engines-of-scale_EN_DI4A.pdf",
+              "download_name": "Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_EN_AfDB_DI4A.pdf",
+              "file": "files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_EN_AfDB_DI4A.pdf",
+                "preview": "files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Les moteurs du passage à l'échelle : technologies big data pour les systèmes statistiques",
+              "description": "Des fichiers bruts aux indicateurs fiables : les six briques de toute plateforme de données (ingestion, stockage, traitement, recherche, diffusion, gouvernance), le mur de la mémoire et trois façons de le franchir, illustrés avec les tuiles Ookla, les grilles WorldPop et les lumières nocturnes de la NASA.",
+              "size": 1104003,
+              "size_human": "1.1 MB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1400_engines-of-scale_FR_DI4A.pdf",
+              "download_name": "Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_FR_AfDB_DI4A.pdf",
+              "file": "files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_FR_AfDB_DI4A.pdf",
+                "preview": "files/ookla/Engines_Of_Scale_Big_Data_Technologies_For_Statistical_Systems_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "hands-on-part-1-ipynb",
+          "type": "lab",
+          "format": "ipynb",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Lab — Ookla at scale with Elasticsearch and Kibana",
+            "fr": "Lab — Ookla à l'échelle avec Elasticsearch et Kibana"
+          },
+          "description": {
+            "en": "Start an Elasticsearch and Kibana cluster, index Ookla performance tiles with the geo_shape type, understand quadkeys and mappings, cross connectivity with WorldPop population and publish a presentation-ready Kibana dashboard. Runs on Colab, Kaggle or locally.",
+            "fr": "Démarrez un cluster Elasticsearch et Kibana, indexez les tuiles de performance Ookla avec le type geo_shape, comprenez les quadkeys et les mappings, croisez la connectivité avec la population WorldPop et publiez un tableau de bord Kibana prêt à présenter. Fonctionne sur Colab, Kaggle ou en local."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Lab — Ookla at scale with Elasticsearch and Kibana",
+              "description": "Start an Elasticsearch and Kibana cluster, index Ookla performance tiles with the geo_shape type, understand quadkeys and mappings, cross connectivity with WorldPop population and publish a presentation-ready Kibana dashboard. Runs on Colab, Kaggle or locally.",
+              "size": 138952,
+              "size_human": "135.7 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1445_hands-on-part-1_EN_DI4A.ipynb",
+              "download_name": "Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_EN_AfDB_DI4A.ipynb",
+              "file": "files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_EN_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_EN_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_EN_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_EN_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_EN_AfDB_DI4A.ipynb"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lab — Ookla à l'échelle avec Elasticsearch et Kibana",
+              "description": "Démarrez un cluster Elasticsearch et Kibana, indexez les tuiles de performance Ookla avec le type geo_shape, comprenez les quadkeys et les mappings, croisez la connectivité avec la population WorldPop et publiez un tableau de bord Kibana prêt à présenter. Fonctionne sur Colab, Kaggle ou en local.",
+              "size": 143014,
+              "size_human": "139.7 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1445_hands-on-part-1_FR_DI4A.ipynb",
+              "download_name": "Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_FR_AfDB_DI4A.ipynb",
+              "file": "files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_FR_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_FR_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_FR_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_FR_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/ookla/Ookla_At_Scale_With_Elasticsearch_And_Kibana_Lab_FR_AfDB_DI4A.ipynb"
+              }
+            }
+          }
+        },
+        {
+          "id": "hands-on-part-1-pdf",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Searching, aggregating and mapping big data with the Elastic Stack — slides",
+            "fr": "Rechercher, agréger et cartographier le big data avec la suite Elastic — diapositives"
+          },
+          "description": {
+            "en": "When does a laptop and pandas stop being enough? The big-data value chain in six building blocks, and how Elasticsearch and Kibana search, aggregate and map Ookla Speedtest tiles into a subnational connectivity indicator.",
+            "fr": "Quand un ordinateur portable et pandas ne suffisent-ils plus ? La chaîne de valeur big data en six briques, et comment Elasticsearch et Kibana recherchent, agrègent et cartographient les tuiles Ookla Speedtest en un indicateur de connectivité infranational."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Searching, aggregating and mapping big data with the Elastic Stack — slides",
+              "description": "When does a laptop and pandas stop being enough? The big-data value chain in six building blocks, and how Elasticsearch and Kibana search, aggregate and map Ookla Speedtest tiles into a subnational connectivity indicator.",
+              "size": 1001070,
+              "size_human": "977.6 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1445_hands-on-part-1_EN_DI4A.pdf",
+              "download_name": "Ookla_At_Scale_With_The_Elastic_Stack_Slides_EN_AfDB_DI4A.pdf",
+              "file": "files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_EN_AfDB_DI4A.pdf",
+                "preview": "files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Rechercher, agréger et cartographier le big data avec la suite Elastic — diapositives",
+              "description": "Quand un ordinateur portable et pandas ne suffisent-ils plus ? La chaîne de valeur big data en six briques, et comment Elasticsearch et Kibana recherchent, agrègent et cartographient les tuiles Ookla Speedtest en un indicateur de connectivité infranational.",
+              "size": 1010200,
+              "size_human": "986.5 KB",
+              "updated": "2026-10-21",
+              "source": "content/Ookla/1445_hands-on-part-1_FR_DI4A.pdf",
+              "download_name": "Ookla_At_Scale_With_The_Elastic_Stack_Slides_FR_AfDB_DI4A.pdf",
+              "file": "files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_FR_AfDB_DI4A.pdf",
+                "preview": "files/ookla/Ookla_At_Scale_With_The_Elastic_Stack_Slides_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cpi",
+      "folder": "CPI",
+      "order": 4,
+      "icon": "chart",
+      "title": {
+        "en": "Price Statistics & Alternative Data for the CPI",
+        "fr": "Statistiques des prix et données alternatives pour l'IPC"
+      },
+      "description": {
+        "en": "The consumer price index guides monetary policy, indexes wages and deflates the national accounts: a one-point error is paid for everywhere. This theme covers the CPI from definition to compilation and the COICOP 2018 classification that structures the basket, then shows how an experimental price index is built from the web: e-commerce sites and official publications in eight African countries, with a complete toolkit of three notebooks, code, baskets and sample data.",
+        "fr": "L'indice des prix à la consommation guide la politique monétaire, indexe les salaires et déflate les comptes nationaux : une erreur d'un point se paie partout. Ce thème couvre l'IPC de la définition au calcul et la nomenclature COICOP 2018 qui structure le panier, puis montre comment construire un indice de prix expérimental à partir du web : sites de commerce en ligne et publications officielles de huit pays africains, avec une boîte à outils complète de trois carnets, code, paniers et données d'exemple."
+      },
+      "cover": "assets/img/covers/cpi.svg",
+      "counts": {
+        "lab": 0,
+        "presentation": 3,
+        "resource": 1,
+        "files": 7
+      },
+      "documents": [
+        {
+          "id": "cpi-coicop-deck",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "The consumer price index: from COICOP 2018 to online prices",
+            "fr": "L'indice des prix à la consommation : de la COICOP 2018 aux prix en ligne"
+          },
+          "description": {
+            "en": "Definition, basket, weights and compilation methods of the CPI, the harmonised index of the West African Economic and Monetary Union, the COICOP 2018 classification, and how online and institutional prices can complement price collection in Côte d'Ivoire and Senegal.",
+            "fr": "Définition, panier, pondérations et méthodes de calcul de l'IPC, l'indice harmonisé de l'UEMOA, la nomenclature COICOP 2018, et comment les prix en ligne et les prix publiés par les institutions peuvent compléter la collecte en Côte d'Ivoire et au Sénégal."
+          },
+          "updated": "2026-10-29",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "The consumer price index: from COICOP 2018 to online prices",
+              "description": "Definition, basket, weights and compilation methods of the CPI, the harmonised index of the West African Economic and Monetary Union, the COICOP 2018 classification, and how online and institutional prices can complement price collection in Côte d'Ivoire and Senegal.",
+              "size": 1094866,
+              "size_human": "1.0 MB",
+              "updated": "2026-10-29",
+              "source": "content/CPI/CPI_COICOP2018_AfDB_EN.pdf",
+              "download_name": "Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf",
+              "file": "files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf",
+                "preview": "files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "L'indice des prix à la consommation : de la COICOP 2018 aux prix en ligne",
+              "description": "Définition, panier, pondérations et méthodes de calcul de l'IPC, l'indice harmonisé de l'UEMOA, la nomenclature COICOP 2018, et comment les prix en ligne et les prix publiés par les institutions peuvent compléter la collecte en Côte d'Ivoire et au Sénégal.",
+              "size": 1108611,
+              "size_human": "1.1 MB",
+              "updated": "2026-10-29",
+              "source": "content/CPI/IPC_COICOP2018_AfDB_FR.pdf",
+              "download_name": "Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf",
+              "file": "files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf",
+                "preview": "files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "web-price-index-deck",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "A price index built from the web — three notebooks, eight countries, two families of sources",
+            "fr": "Un indice de prix à partir du web — trois carnets, huit pays, deux familles de sources"
+          },
+          "description": {
+            "en": "How an experimental price index is built from e-commerce sites and official publications in eight African countries. The purpose and what the device does not measure; the concepts (COICOP 2018, basket, variety, SKU, matched models, weights, robots.txt); the whole chain in one diagram; the three notebooks and classification by rules, embeddings and language models; the calculations walked through on real cases; how to run and resume a campaign; the data collected; scope, limits and sources. Forty-three slides.",
+            "fr": "Comment un indice de prix expérimental est construit à partir des sites de commerce en ligne et des publications officielles de huit pays africains. L'objectif et ce que le dispositif ne mesure pas ; les concepts (COICOP 2018, panier, variété, SKU, modèles appariés, pondérations, robots.txt) ; toute la chaîne en un schéma ; les trois carnets et la classification par règles, embeddings et modèles de langage ; les calculs déroulés sur des cas réels ; comment lancer et reprendre une campagne ; les données collectées ; portée, limites et sources. Quarante-trois diapositives."
+          },
+          "updated": "2026-10-29",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "A price index built from the web — three notebooks, eight countries, two families of sources",
+              "description": "How an experimental price index is built from e-commerce sites and official publications in eight African countries. The purpose and what the device does not measure; the concepts (COICOP 2018, basket, variety, SKU, matched models, weights, robots.txt); the whole chain in one diagram; the three notebooks and classification by rules, embeddings and language models; the calculations walked through on real cases; how to run and resume a campaign; the data collected; scope, limits and sources. Forty-three slides.",
+              "size": 773750,
+              "size_human": "755.6 KB",
+              "updated": "2026-10-29",
+              "source": "content/CPI/A-price-index-built-from-the-web_AfDB-DI4A.pdf",
+              "download_name": "A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_EN_AfDB_DI4A.pdf",
+              "file": "files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_EN_AfDB_DI4A.pdf",
+                "preview": "files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Un indice de prix à partir du web — trois carnets, huit pays, deux familles de sources",
+              "description": "Comment un indice de prix expérimental est construit à partir des sites de commerce en ligne et des publications officielles de huit pays africains. L'objectif et ce que le dispositif ne mesure pas ; les concepts (COICOP 2018, panier, variété, SKU, modèles appariés, pondérations, robots.txt) ; toute la chaîne en un schéma ; les trois carnets et la classification par règles, embeddings et modèles de langage ; les calculs déroulés sur des cas réels ; comment lancer et reprendre une campagne ; les données collectées ; portée, limites et sources. Quarante-trois diapositives.",
+              "size": 786252,
+              "size_human": "767.8 KB",
+              "updated": "2026-10-29",
+              "source": "content/CPI/Un-indice-de-prix-a-partir-du-web_AfDB-DI4A.pdf",
+              "download_name": "A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_FR_AfDB_DI4A.pdf",
+              "file": "files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_FR_AfDB_DI4A.pdf",
+                "preview": "files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "price-index-toolkit",
+          "type": "resource",
+          "format": "zip",
+          "langs": [
+            "both"
+          ],
+          "bilingual": false,
+          "title": {
+            "en": "Toolkit — the three price-index notebooks with their code, baskets and sample data",
+            "fr": "Boîte à outils — les trois carnets de l'indice des prix avec leur code, paniers et données d'exemple"
+          },
+          "description": {
+            "en": "Everything needed to run the chain on your own workstation: the three notebooks in English and in French (collect e-commerce prices, complete with official sources, classify and compute the index), the shared code engine, the baskets and official weights of eight countries (Côte d'Ivoire, Egypt, Ghana, Kenya, Morocco, Nigeria, Senegal, Uganda), sample data, the archives already collected per country, set-up scripts for Windows, macOS and Linux, and a README. Requires Python 3.10 or later; the two collection notebooks run on the institute's computer, the analysis notebook also runs in Google Colab.",
+            "fr": "Tout ce qu'il faut pour exécuter la chaîne sur votre propre poste : les trois carnets en français et en anglais (collecter les prix du commerce en ligne, compléter avec les sources officielles, classer et calculer l'indice), le moteur de code commun, les paniers et pondérations officielles de huit pays (Côte d'Ivoire, Égypte, Ghana, Kenya, Maroc, Nigeria, Sénégal, Ouganda), des données d'exemple, les archives déjà collectées par pays, les scripts d'installation pour Windows, macOS et Linux, et un guide de démarrage. Nécessite Python 3.10 ou plus ; les deux carnets de collecte tournent sur le poste de l'institut, le carnet d'analyse tourne aussi dans Google Colab."
+          },
+          "updated": "2026-10-29",
+          "versions": {
+            "both": {
+              "lang": "both",
+              "title": "Toolkit — the three price-index notebooks with their code, baskets and sample data",
+              "description": "Everything needed to run the chain on your own workstation: the three notebooks in English and in French (collect e-commerce prices, complete with official sources, classify and compute the index), the shared code engine, the baskets and official weights of eight countries (Côte d'Ivoire, Egypt, Ghana, Kenya, Morocco, Nigeria, Senegal, Uganda), sample data, the archives already collected per country, set-up scripts for Windows, macOS and Linux, and a README. Requires Python 3.10 or later; the two collection notebooks run on the institute's computer, the analysis notebook also runs in Google Colab.",
+              "size": 57432080,
+              "size_human": "54.8 MB",
+              "updated": "2026-10-29",
+              "source": "content/CPI/CPI_AfDB.zip",
+              "download_name": "Online_Price_Index_Toolkit_Notebooks_Code_Baskets_And_Sample_Data_EN_FR_AfDB_DI4A.zip",
+              "file": "files/cpi/Online_Price_Index_Toolkit_Notebooks_Code_Baskets_And_Sample_Data_EN_FR_AfDB_DI4A.zip",
+              "links": {
+                "download": "files/cpi/Online_Price_Index_Toolkit_Notebooks_Code_Baskets_And_Sample_Data_EN_FR_AfDB_DI4A.zip",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Online_Price_Index_Toolkit_Notebooks_Code_Baskets_And_Sample_Data_EN_FR_AfDB_DI4A.zip"
+              }
+            }
+          }
+        },
+        {
+          "id": "python-jupyterlab-install",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Installing Python and JupyterLab — step-by-step guide",
+            "fr": "Installer Python et JupyterLab — guide pas à pas"
+          },
+          "description": {
+            "en": "Two installs, fifteen minutes, no prior Python knowledge: check whether Python is already there, install it on Windows, macOS or Linux, install and launch JupyterLab, and fix the five most common problems.",
+            "fr": "Deux installations, quinze minutes, aucune connaissance préalable de Python : vérifier si Python est déjà présent, l'installer sous Windows, macOS ou Linux, installer et lancer JupyterLab, et résoudre les cinq problèmes les plus fréquents."
+          },
+          "updated": "2026-10-21",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Installing Python and JupyterLab — step-by-step guide",
+              "description": "Two installs, fifteen minutes, no prior Python knowledge: check whether Python is already there, install it on Windows, macOS or Linux, install and launch JupyterLab, and fix the five most common problems.",
+              "size": 485287,
+              "size_human": "473.9 KB",
+              "updated": "2026-10-21",
+              "source": "content/CPI/Installing-Python-JupyterLab-EN.pdf",
+              "download_name": "Installing_Python_And_JupyterLab_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+              "file": "files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_EN_AfDB_DI4A.pdf",
+                "preview": "files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Installer Python et JupyterLab — guide pas à pas",
+              "description": "Deux installations, quinze minutes, aucune connaissance préalable de Python : vérifier si Python est déjà présent, l'installer sous Windows, macOS ou Linux, installer et lancer JupyterLab, et résoudre les cinq problèmes les plus fréquents.",
+              "size": 496832,
+              "size_human": "485.2 KB",
+              "updated": "2026-10-21",
+              "source": "content/CPI/Installer-Python-JupyterLab-FR.pdf",
+              "download_name": "Installing_Python_And_JupyterLab_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+              "file": "files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_FR_AfDB_DI4A.pdf",
+                "preview": "files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "folder": "RAG",
+      "order": 5,
+      "icon": "chat",
+      "title": {
+        "en": "Generative AI & RAG Assistants",
+        "fr": "IA générative et assistants RAG"
+      },
+      "description": {
+        "en": "Build an assistant that reads your institution's own publications and answers with the document, section and page, checks the figures it quotes and says \"I don't know\" when the answer is not there. A presentation deck sets out the concepts, the evidence and the production practices; two notebooks compare keyword, semantic and hybrid retrieval, handle four languages in one collection and show how to keep unpublished material confidential.",
+        "fr": "Construisez un assistant qui lit les publications de votre institution et répond en citant le document, la section et la page, vérifie les chiffres qu'il cite et dit « je ne sais pas » quand l'information est absente. Une présentation pose les concepts, les preuves et les bonnes pratiques de production ; deux notebooks comparent la recherche par mots-clés, sémantique et hybride, gèrent quatre langues dans une même collection et montrent comment protéger les documents non publiés."
+      },
+      "cover": "assets/img/covers/rag.svg",
+      "counts": {
+        "lab": 2,
+        "presentation": 2,
+        "resource": 0,
+        "files": 8
+      },
+      "documents": [
+        {
+          "id": "rag-course-deck",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Query your institution's documents with RAG — concepts, hands-on guide and reference briefing",
+            "fr": "Interroger les documents de votre institution avec le RAG — concepts, guide pratique et dossier de référence"
+          },
+          "description": {
+            "en": "Forty slides in two parts. First, the essentials: why a language model alone is not enough, how indexing and querying work, sparse, dense and hybrid retrieval, the augmented prompt, a three-minute set-up and four exercises that follow the notebook. Then a self-study briefing in six sections: foundations, how it works, evidence, evolution of RAG, advanced techniques, and production (evaluation, security, technology stack), with references.",
+            "fr": "Quarante diapositives en deux parties. D'abord l'essentiel : pourquoi un modèle de langage seul ne suffit pas, comment fonctionnent l'indexation et l'interrogation, la recherche creuse, dense et hybride, le prompt augmenté, une mise en route en trois minutes et quatre exercices qui suivent le notebook. Puis un dossier d'autoformation en six sections : fondements, fonctionnement, preuves, évolution du RAG, techniques avancées et production (évaluation, sécurité, pile technologique), avec références."
+          },
+          "updated": "2026-10-28",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Query your institution's documents with RAG — concepts, hands-on guide and reference briefing",
+              "description": "Forty slides in two parts. First, the essentials: why a language model alone is not enough, how indexing and querying work, sparse, dense and hybrid retrieval, the augmented prompt, a three-minute set-up and four exercises that follow the notebook. Then a self-study briefing in six sections: foundations, how it works, evidence, evolution of RAG, advanced techniques, and production (evaluation, security, technology stack), with references.",
+              "size": 846952,
+              "size_human": "827.1 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_RAG_session_slides_EN.pdf",
+              "download_name": "RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_EN_AfDB_DI4A.pdf",
+              "file": "files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_EN_AfDB_DI4A.pdf",
+                "preview": "files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Interroger les documents de votre institution avec le RAG — concepts, guide pratique et dossier de référence",
+              "description": "Quarante diapositives en deux parties. D'abord l'essentiel : pourquoi un modèle de langage seul ne suffit pas, comment fonctionnent l'indexation et l'interrogation, la recherche creuse, dense et hybride, le prompt augmenté, une mise en route en trois minutes et quatre exercices qui suivent le notebook. Puis un dossier d'autoformation en six sections : fondements, fonctionnement, preuves, évolution du RAG, techniques avancées et production (évaluation, sécurité, pile technologique), avec références.",
+              "size": 854718,
+              "size_human": "834.7 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_RAG_seance_diapos_FR.pdf",
+              "download_name": "RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_FR_AfDB_DI4A.pdf",
+              "file": "files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_FR_AfDB_DI4A.pdf",
+                "preview": "files/rag/RAG_For_Statistical_Publications_Concepts_Hands_On_And_Reference_Briefing_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        },
+        {
+          "id": "rag-hands-on-lab",
+          "type": "lab",
+          "format": "ipynb",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Hands-on lab — Query your institution's documents with a RAG assistant",
+            "fr": "Lab pratique — Interroger les documents de votre institution avec un assistant RAG"
+          },
+          "description": {
+            "en": "Load a collection of PDF publications, prepare it and ask questions in three cells. Then work through four exercises: build your assistant, ask and verify, compare retrieval methods (BM25, embeddings, hybrid, reranking) and handle out-of-scope questions. Works even without a language model.",
+            "fr": "Chargez une collection de publications PDF, préparez-la et posez vos questions en trois cellules. Puis quatre exercices : créer votre assistant, interroger et vérifier, comparer les méthodes de recherche (BM25, embeddings, hybride, reclassement) et gérer les questions hors champ. Fonctionne même sans modèle de langage."
+          },
+          "updated": "2026-10-28",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Hands-on lab — Query your institution's documents with a RAG assistant",
+              "description": "Load a collection of PDF publications, prepare it and ask questions in three cells. Then work through four exercises: build your assistant, ask and verify, compare retrieval methods (BM25, embeddings, hybrid, reranking) and handle out-of-scope questions. Works even without a language model.",
+              "size": 281134,
+              "size_human": "274.5 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_RAG_hands_on_EN.ipynb",
+              "download_name": "RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb",
+              "file": "files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_EN_AfDB_DI4A.ipynb"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lab pratique — Interroger les documents de votre institution avec un assistant RAG",
+              "description": "Chargez une collection de publications PDF, préparez-la et posez vos questions en trois cellules. Puis quatre exercices : créer votre assistant, interroger et vérifier, comparer les méthodes de recherche (BM25, embeddings, hybride, reclassement) et gérer les questions hors champ. Fonctionne même sans modèle de langage.",
+              "size": 294321,
+              "size_human": "287.4 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_RAG_pratique_FR.ipynb",
+              "download_name": "RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb",
+              "file": "files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/RAG_Assistant_For_Statistical_Publications_Hands_On_Lab_FR_AfDB_DI4A.ipynb"
+              }
+            }
+          }
+        },
+        {
+          "id": "rag-multilingual-lab",
+          "type": "lab",
+          "format": "ipynb",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Companion lab — A multilingual RAG assistant (EN, FR, ES, PT)",
+            "fr": "Lab compagnon — Un assistant RAG multilingue (EN, FR, ES, PT)"
+          },
+          "description": {
+            "en": "One collection, four languages: index English, French, Spanish and Portuguese publications together, ask in any language and get a grounded, cited answer. Includes language detection, multilingual embeddings and cross-language evaluation.",
+            "fr": "Une collection, quatre langues : indexez ensemble des publications en anglais, français, espagnol et portugais, interrogez dans n'importe quelle langue et obtenez une réponse sourcée et citée. Avec détection de langue, embeddings multilingues et évaluation inter-langues."
+          },
+          "updated": "2026-10-28",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Companion lab — A multilingual RAG assistant (EN, FR, ES, PT)",
+              "description": "One collection, four languages: index English, French, Spanish and Portuguese publications together, ask in any language and get a grounded, cited answer. Includes language detection, multilingual embeddings and cross-language evaluation.",
+              "size": 343069,
+              "size_human": "335.0 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_RAG_multilingual_EN.ipynb",
+              "download_name": "Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb",
+              "file": "files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_EN_AfDB_DI4A.ipynb"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Lab compagnon — Un assistant RAG multilingue (EN, FR, ES, PT)",
+              "description": "Une collection, quatre langues : indexez ensemble des publications en anglais, français, espagnol et portugais, interrogez dans n'importe quelle langue et obtenez une réponse sourcée et citée. Avec détection de langue, embeddings multilingues et évaluation inter-langues.",
+              "size": 379755,
+              "size_human": "370.9 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_RAG_multilingue_FR.ipynb",
+              "download_name": "Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb",
+              "file": "files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb",
+              "links": {
+                "download": "files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb",
+                "view": "https://nbviewer.org/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb",
+                "colab": "https://colab.research.google.com/github/datainnov4africa-web/DI4A-Website/blob/gh-pages/files/rag/Multilingual_RAG_Assistant_English_French_Spanish_Portuguese_FR_AfDB_DI4A.ipynb"
+              }
+            }
+          }
+        },
+        {
+          "id": "llm-api-keys-guide",
+          "type": "presentation",
+          "format": "pdf",
+          "langs": [
+            "en",
+            "fr"
+          ],
+          "bilingual": true,
+          "title": {
+            "en": "Two free API keys: Groq and Gemini, step by step",
+            "fr": "Deux clés API gratuites : Groq et Gemini, pas à pas"
+          },
+          "description": {
+            "en": "Five minutes, no credit card: how to create a Groq key and a Gemini key, where to store them safely and how to use them in the notebooks. One key is enough; two is safer.",
+            "fr": "Cinq minutes, sans carte bancaire : comment créer une clé Groq et une clé Gemini, où les conserver en sécurité et comment les utiliser dans les notebooks. Une clé suffit ; deux, c'est plus sûr."
+          },
+          "updated": "2026-10-28",
+          "versions": {
+            "en": {
+              "lang": "en",
+              "title": "Two free API keys: Groq and Gemini, step by step",
+              "description": "Five minutes, no credit card: how to create a Groq key and a Gemini key, where to store them safely and how to use them in the notebooks. One key is enough; two is safer.",
+              "size": 380210,
+              "size_human": "371.3 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_Groq_Gemini_API_keys_EN.pdf",
+              "download_name": "Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf",
+              "file": "files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf",
+                "preview": "files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_EN_AfDB_DI4A.pdf"
+              }
+            },
+            "fr": {
+              "lang": "fr",
+              "title": "Deux clés API gratuites : Groq et Gemini, pas à pas",
+              "description": "Cinq minutes, sans carte bancaire : comment créer une clé Groq et une clé Gemini, où les conserver en sécurité et comment les utiliser dans les notebooks. Une clé suffit ; deux, c'est plus sûr.",
+              "size": 389792,
+              "size_human": "380.7 KB",
+              "updated": "2026-10-28",
+              "source": "content/RAG/AfDB_DI4A_Groq_Gemini_cles_API_FR.pdf",
+              "download_name": "Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf",
+              "file": "files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf",
+              "links": {
+                "download": "files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf",
+                "absolute": "https://datainnov4africa-web.github.io/DI4A-Website/files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf",
+                "preview": "files/rag/Two_Free_LLM_API_Keys_Groq_And_Gemini_Step_By_Step_FR_AfDB_DI4A.pdf"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
