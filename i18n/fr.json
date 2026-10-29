@@ -42,11 +42,12 @@
     "themes": "Thèmes",
     "labs": "Labs pratiques",
     "presentations": "Présentations et guides",
+    "resources": "Boîtes à outils et archives",
     "updated": "Dernière mise à jour"
   },
   "themes": {
     "title": "Explorer par thème",
-    "subtitle": "Chaque thème regroupe des labs (notebooks Jupyter) et des présentations (PDF) à prévisualiser, exécuter dans Google Colab ou télécharger.",
+    "subtitle": "Chaque thème regroupe des labs (notebooks Jupyter), des présentations (PDF) et, lorsque c'est utile, des boîtes à outils complètes (ZIP) à prévisualiser, exécuter dans Google Colab ou télécharger.",
     "explore": "Ouvrir le thème",
     "resources": "{n} ressources",
     "resource": "{n} ressource",
@@ -54,6 +55,8 @@
     "lab": "{n} lab",
     "presentations": "{n} présentations",
     "presentation": "{n} présentation",
+    "archives": "{n} archives",
+    "archive": "{n} archive",
     "empty": "Aucun thème publié pour le moment."
   },
   "resources": {
@@ -69,6 +72,7 @@
     "type_all": "Tous les types",
     "type_lab": "Labs",
     "type_presentation": "Présentations",
+    "type_resource": "Archives",
     "lang_label": "Langue du document",
     "lang_all": "Toutes les langues",
     "lang_en": "Anglais",
@@ -81,8 +85,10 @@
   "doc": {
     "lab": "Lab",
     "presentation": "Présentation",
+    "resource": "Archive",
     "notebook": "Notebook Jupyter",
     "pdf": "Document PDF",
+    "archive": "Archive ZIP",
     "updated": "Mis à jour",
     "size": "Taille",
     "theme": "Thème",
@@ -98,6 +104,7 @@
     "lang_fr": "Français",
     "bilingual": "Disponible en anglais et en français",
     "both": "EN · FR",
+    "both_file": "Contenu en anglais et en français dans un même fichier",
     "version_lang": "Langue du document",
     "zip": "Les deux versions (ZIP)",
     "zip_title": "Télécharger les versions anglaise et française dans une archive ZIP",

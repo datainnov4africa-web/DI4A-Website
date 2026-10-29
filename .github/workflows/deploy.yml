@@ -58,7 +58,8 @@ jobs:
           import json
           c = json.load(open("dist/data/catalog.json", encoding="utf-8"))
           s = c["stats"]
-          print(f"- **{s['themes']}** themes, **{s['labs']}** labs, **{s['presentations']}** presentations")
+          print(f"- **{s['themes']}** themes, **{s['labs']}** labs, **{s['presentations']}** presentations, "
+                f"**{s.get('resources', 0)}** archives")
           for t in c["themes"]:
               print(f"- {t['title']['en']} ({len(t['documents'])} documents, {t['counts']['files']} files)")
               for d in t["documents"]:

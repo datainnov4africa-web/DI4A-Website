@@ -109,7 +109,7 @@ class ScanTests(unittest.TestCase):
         t = themes[0]
         self.assertEqual(t["id"], "machine-learning")
         self.assertEqual(t["title"]["en"], "Machine Learning")
-        self.assertEqual(t["counts"], {"lab": 1, "presentation": 1, "files": 2})
+        self.assertEqual(t["counts"], {"lab": 1, "presentation": 1, "resource": 0, "files": 2})
         names = {v["download_name"] for d in t["documents"] for v in d["versions"].values()}
         self.assertIn("Intro_To_Python_For_Data_Analysis_EN_AfDB_DI4A.ipynb", names)
         self.assertIn("Slides_FR_AfDB_DI4A.pdf", names)  # Workshop / 2026 stripped
@@ -201,6 +201,56 @@ class PairingTests(unittest.TestCase):
         paired = next(d for d in docs if d["id"] == "data-visualization")
         self.assertFalse(paired["bilingual"])
         self.assertEqual(list(paired["versions"]), ["en"])
+
+
+class ArchiveTests(unittest.TestCase):
+    """ZIP archives are published as 'resource' documents (download only)."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        self.content = self.root / "content"
+        self.theme = self.content / "CPI"
+        self.theme.mkdir(parents=True)
+        (self.theme / "toolkit.zip").write_bytes(b"PK\x03\x04 fake")
+        (self.theme / "slides_EN.pdf").write_bytes(b"%PDF-1.4 fake")
+        self.cfg = dict(bs.DEFAULT_CONFIG)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_both_language_marker(self):
+        name, _ = bs.make_download_name("Price index toolkit", ".zip", lang="both",
+                                        suffix="_AfDB_DI4A", forbidden=FORBIDDEN)
+        self.assertEqual(name, "Price_Index_Toolkit_EN_FR_AfDB_DI4A.zip")
+
+    def test_archive_without_suffix_is_bilingual_single_file(self):
+        themes = bs.scan_content(self.content, self.cfg)
+        bs.add_links(themes, bs.load_config(self.root / "missing.yml", "owner/repo"))
+        t = themes[0]
+        self.assertEqual(t["counts"]["resource"], 1)
+        self.assertEqual(t["counts"]["presentation"], 1)
+        zip_doc = next(d for d in t["documents"] if d["type"] == "resource")
+        self.assertEqual(zip_doc["langs"], ["both"])
+        self.assertFalse(zip_doc["bilingual"])
+        v = zip_doc["versions"]["both"]
+        self.assertEqual(v["download_name"], "Toolkit_EN_FR_AfDB_DI4A.zip")
+        self.assertNotIn("preview", v["links"])
+        self.assertNotIn("colab", v["links"])
+        self.assertIn("download", v["links"])
+        catalog = bs.build_catalog(themes, self.cfg)
+        self.assertEqual(catalog["stats"]["resources"], 1)
+        self.assertEqual(catalog["stats"]["documents"], 2)
+        md = bs.catalog_markdown(catalog, "en")
+        self.assertIn("**Archive**", md)
+        self.assertIn("[EN+FR]", md)
+
+    def test_archive_with_language_suffix(self):
+        (self.theme / "toolkit.zip").rename(self.theme / "toolkit_FR.zip")
+        docs = bs.scan_content(self.content, self.cfg)[0]["documents"]
+        zip_doc = next(d for d in docs if d["type"] == "resource")
+        self.assertEqual(zip_doc["langs"], ["fr"])
+        self.assertEqual(zip_doc["versions"]["fr"]["download_name"], "Toolkit_FR_AfDB_DI4A.zip")
 
 
 if __name__ == "__main__":

@@ -235,7 +235,7 @@ button { font: inherit; }
 .stats { position: relative; padding: clamp(2rem, 4vw, 3.5rem) 0; background: var(--green-700); color: #fff; overflow: hidden; }
 .stats-bg { position: absolute; inset: 0; background: url("../img/africa-night-1600.webp") center / cover no-repeat; opacity: 0.85; }
 .stats::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(0, 85, 58, 0.82), rgba(0, 85, 58, 0.35) 55%, rgba(0, 57, 42, 0.7)); }
-.stats-grid { position: relative; z-index: 2; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.stats-grid { position: relative; z-index: 2; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
 .stat {
   position: relative; border-radius: var(--radius); padding: 1.4rem 1.5rem; display: grid; gap: 0.2rem;
   background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.18); backdrop-filter: blur(6px);
@@ -244,7 +244,7 @@ button { font: inherit; }
 .stat-value { font-size: clamp(2.2rem, 1.6rem + 2.5vw, 3.4rem); font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
 .stat-label { font-weight: 600; color: rgba(255, 255, 255, 0.85); }
 @media (max-width: 700px) {
-  .stats-grid { gap: 0.6rem; }
+  .stats-grid { gap: 0.6rem; grid-template-columns: repeat(2, 1fr); }
   .stat { padding: 0.9rem 0.5rem; justify-items: center; text-align: center; gap: 0.1rem; }
   .stat-icon { width: 1.4rem; height: 1.4rem; margin-bottom: 0.2rem; }
   .stat-value { font-size: 1.9rem; }
@@ -319,6 +319,14 @@ button { font: inherit; }
   .select-field { flex: 1 1 100%; }
   .select-field select { width: 100%; }
 }
+@media (max-width: 480px) {
+  /* Four document types: two rows of two pills, no horizontal overflow. */
+  /* Higher specificity than the base .segmented rule below; min-inline-size: 0 removes
+     the fieldset's default min-content width, which is what overflowed the viewport. */
+  .toolbar-filters .segmented { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.15rem; border-radius: 1.4rem; min-inline-size: 0; }
+  .toolbar-filters .segmented label { min-width: 0; }
+  .toolbar-filters .segmented span { display: block; text-align: center; padding-inline: 0.3rem; font-size: 0.88rem; }
+}
 .search-field { position: relative; display: flex; align-items: center; flex: 1 1 320px; }
 .search-field .icon { position: absolute; left: 0.9rem; color: var(--ink-400); pointer-events: none; }
 .search-field input {
@@ -391,6 +399,8 @@ button { font: inherit; }
 .btn-zip { color: var(--ink-600); }
 @media (prefers-reduced-motion: reduce) { .lang-toggle-thumb { transition: none; } }
 .doc-card[data-type="presentation"] { border-left-color: var(--gold-500); }
+.chip-archive { background: #e8eef6; color: #1f3a5f; }
+.doc-card[data-type="resource"] { border-left-color: #1f3a5f; }
 .doc-card:hover, .doc-card:focus-within { box-shadow: var(--shadow-lg); --lift: -3px; }
 .doc-head { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
 .doc-card h3 { margin: 0; font-size: 1.15rem; color: var(--ink); }

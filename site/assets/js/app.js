@@ -188,7 +188,7 @@ function countUp(el, target) {
 
 function themeCard(th) {
   const L = state.lang;
-  const total = th.counts.lab + th.counts.presentation;
+  const total = th.counts.lab + th.counts.presentation + (th.counts.resource || 0);
   const cover = th.cover
     ? `<img src="${esc(ROOT + th.cover)}" alt="" loading="lazy" decoding="async" width="600" height="338">`
     : `<span class="theme-cover-fallback">${icon(th.icon)}</span>`;
@@ -201,6 +201,7 @@ function themeCard(th) {
         <div class="theme-meta">
           ${th.counts.lab ? `<span class="chip">${icon('flask')}${esc(tn(th.counts.lab, 'themes.lab', 'themes.labs'))}</span>` : ''}
           ${th.counts.presentation ? `<span class="chip chip-gold">${icon('file-text')}${esc(tn(th.counts.presentation, 'themes.presentation', 'themes.presentations'))}</span>` : ''}
+          ${th.counts.resource ? `<span class="chip chip-archive">${icon('archive')}${esc(tn(th.counts.resource, 'themes.archive', 'themes.archives'))}</span>` : ''}
           <span class="chip chip-neutral">${esc(tn(total, 'themes.resource', 'themes.resources'))}</span>
         </div>
         <span class="theme-cta" aria-hidden="true">${esc(t('themes.explore'))}${icon('arrow-right')}</span>
@@ -234,6 +235,7 @@ function renderThemeHero() {
     stats.innerHTML = [
       th.counts.lab ? `<li><span class="chip">${icon('flask')}${esc(tn(th.counts.lab, 'themes.lab', 'themes.labs'))}</span></li>` : '',
       th.counts.presentation ? `<li><span class="chip">${icon('file-text')}${esc(tn(th.counts.presentation, 'themes.presentation', 'themes.presentations'))}</span></li>` : '',
+      th.counts.resource ? `<li><span class="chip">${icon('archive')}${esc(tn(th.counts.resource, 'themes.archive', 'themes.archives'))}</span></li>` : '',
     ].join('');
   }
 }
@@ -271,28 +273,49 @@ function faceActions(d, v) {
       <a class="btn btn-colab btn-3d" href="${esc(links.colab || '#')}" target="_blank" rel="noopener" title="${esc(t('doc.colab_title'))}">${icon('colab')}<span>${esc(t('doc.colab'))}${esc(tag)}</span></a>
       ${download}${zip}`;
   }
+  if (d.type === 'resource') {
+    // Archives: download only (no preview, no Colab).
+    return `${download}${zip}`;
+  }
   return `
       <button type="button" class="btn btn-gold btn-3d" data-preview="${esc(docKey(d))}" data-version="${L}" title="${esc(t('doc.preview_title'))}">${icon('eye')}<span>${esc(t('doc.preview'))}${esc(tag)}</span></button>
       ${download}${zip}`;
 }
 
+const TYPE_CHIP = {
+  lab: { icon: 'flask', cls: '', key: 'doc.lab' },
+  presentation: { icon: 'file-text', cls: 'chip-gold', key: 'doc.presentation' },
+  resource: { icon: 'archive', cls: 'chip-archive', key: 'doc.resource' },
+};
+
+/** Languages a document can be filtered by ("both" = one file holding EN and FR). */
+function docLangs(d) {
+  return d.langs.includes('both') ? ['en', 'fr'] : d.langs;
+}
+
 function docFace(d, v, face) {
   const L = v.lang;
   const active = L === face;
-  const isLab = d.type === 'lab';
+  const chip = TYPE_CHIP[d.type] || TYPE_CHIP.presentation;
   // A bilingual face speaks its own language; a monolingual card speaks the site language.
   const title = d.bilingual ? v.title : d.title[state.lang];
   const description = d.bilingual ? v.description : d.description[state.lang];
-  const langBadge = d.bilingual
-    ? `<span class="chip chip-both" title="${esc(t('doc.bilingual'))}">${icon('globe')}${esc(t('doc.both'))}</span>${langToggle(d, face)}`
-    : `<span class="chip chip-neutral" lang="${L}" title="${esc(t(`doc.lang_${L}`))}">${upper(L)}</span>`;
+  let langBadge;
+  if (d.bilingual) {
+    langBadge = `<span class="chip chip-both" title="${esc(t('doc.bilingual'))}">${icon('globe')}${esc(t('doc.both'))}</span>${langToggle(d, face)}`;
+  } else if (L === 'both') {
+    // One file holding both languages (e.g. a ZIP with EN and FR notebooks).
+    langBadge = `<span class="chip chip-both" title="${esc(t('doc.both_file'))}">${icon('globe')}${esc(t('doc.both'))}</span>`;
+  } else {
+    langBadge = `<span class="chip chip-neutral" lang="${L}" title="${esc(t(`doc.lang_${L}`))}">${upper(L)}</span>`;
+  }
   const themeLink = PAGE === 'home'
     ? `<span>${icon('folder')}<a href="${esc(`${HOME}themes/${d.theme.id}/`)}">${esc(d.theme.title[state.lang])}</a></span>` : '';
   return `
     <div class="doc-face ${L === d.langs[0] ? '' : 'doc-face-back'}" lang="${d.bilingual ? L : state.lang}" data-lang="${L}"
          aria-hidden="${String(!active)}"${active ? '' : ' inert'}>
       <div class="doc-head">
-        <span class="chip ${isLab ? '' : 'chip-gold'}">${icon(isLab ? 'flask' : 'file-text')}${esc(t(isLab ? 'doc.lab' : 'doc.presentation'))}</span>
+        <span class="chip ${chip.cls}">${icon(chip.icon)}${esc(t(chip.key))}</span>
         ${langBadge}
       </div>
       <h3>${esc(title)}</h3>
@@ -335,7 +358,7 @@ function setFace(card, lang, { focus = false } = {}) {
 function matches(d) {
   const f = state.filters;
   if (f.type !== 'all' && d.type !== f.type) return false;
-  if (f.lang !== 'all' && !d.langs.includes(f.lang)) return false;
+  if (f.lang !== 'all' && !docLangs(d).includes(f.lang)) return false;
   if (!f.q) return true;
   const hay = norm([
     d.title.en, d.title.fr, d.description.en, d.description.fr,
@@ -480,7 +503,7 @@ function initFilters() {
   if (!form) return;
   const params = new URLSearchParams(location.search);
   state.filters.q = params.get('q') || '';
-  state.filters.type = ['lab', 'presentation'].includes(params.get('type')) ? params.get('type') : 'all';
+  state.filters.type = ['lab', 'presentation', 'resource'].includes(params.get('type')) ? params.get('type') : 'all';
   state.filters.lang = SUPPORTED.includes(params.get('lang')) ? params.get('lang') : 'all';
   const input = $('#search-input');
   const langSel = $('#lang-filter');

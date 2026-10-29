@@ -42,11 +42,12 @@
     "themes": "Themes",
     "labs": "Hands-on labs",
     "presentations": "Presentations & guides",
+    "resources": "Toolkits & archives",
     "updated": "Last update"
   },
   "themes": {
     "title": "Explore by theme",
-    "subtitle": "Each theme bundles labs (Jupyter notebooks) and presentations (PDF) that you can preview, run in Google Colab or download.",
+    "subtitle": "Each theme bundles labs (Jupyter notebooks), presentations (PDF) and, where useful, complete toolkits (ZIP) that you can preview, run in Google Colab or download.",
     "explore": "Open the theme",
     "resources": "{n} resources",
     "resource": "{n} resource",
@@ -54,6 +55,8 @@
     "lab": "{n} lab",
     "presentations": "{n} presentations",
     "presentation": "{n} presentation",
+    "archives": "{n} archives",
+    "archive": "{n} archive",
     "empty": "No theme published yet."
   },
   "resources": {
@@ -69,6 +72,7 @@
     "type_all": "All types",
     "type_lab": "Labs",
     "type_presentation": "Presentations",
+    "type_resource": "Archives",
     "lang_label": "Document language",
     "lang_all": "All languages",
     "lang_en": "English",
@@ -81,8 +85,10 @@
   "doc": {
     "lab": "Lab",
     "presentation": "Presentation",
+    "resource": "Archive",
     "notebook": "Jupyter notebook",
     "pdf": "PDF document",
+    "archive": "ZIP archive",
     "updated": "Updated",
     "size": "Size",
     "theme": "Theme",
@@ -98,6 +104,7 @@
     "lang_fr": "French",
     "bilingual": "Available in English and French",
     "both": "EN · FR",
+    "both_file": "English and French content in one file",
     "version_lang": "Document language",
     "zip": "Both versions (ZIP)",
     "zip_title": "Download the English and French versions in one ZIP archive",

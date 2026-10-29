@@ -61,11 +61,11 @@ The push triggers **Actions → Build & deploy site**. Wait for the green check 
 
 | You do… | Then… | The site… |
 |---|---|---|
-| Create `content/<New-Theme>/` with `.ipynb` / `.pdf` files | `git add . && git commit -m "content: new theme" && git push` | shows the new theme |
+| Create `content/<New-Theme>/` with `.ipynb` / `.pdf` / `.zip` files | `git add . && git commit -m "content: new theme" && git push` | shows the new theme |
 | Delete a folder or a file | commit and push | removes it |
 | Edit `_meta.yml` | commit and push | updates titles and descriptions |
 
-Nothing else is required. Files that are not `.ipynb` or `.pdf` are ignored by the site (they may stay in the repository).
+Nothing else is required. Files that are not `.ipynb`, `.pdf` or `.zip` are ignored by the site (they may stay in the repository). Keep every file under 100 MB, the limit GitHub applies to a single file.
 
 ### 7. Optional: custom domain
 
@@ -135,11 +135,11 @@ Le push déclenche **Actions → Build & deploy site**. Attendez la coche verte 
 
 | Vous… | Puis… | Le site… |
 |---|---|---|
-| Créez `content/<Nouveau-Theme>/` avec des fichiers `.ipynb` / `.pdf` | `git add . && git commit -m "content: nouveau thème" && git push` | affiche le nouveau thème |
+| Créez `content/<Nouveau-Theme>/` avec des fichiers `.ipynb` / `.pdf` / `.zip` | `git add . && git commit -m "content: nouveau thème" && git push` | affiche le nouveau thème |
 | Supprimez un dossier ou un fichier | commit et push | le retire |
 | Modifiez `_meta.yml` | commit et push | met à jour titres et descriptions |
 
-Rien d'autre n'est nécessaire. Les fichiers qui ne sont ni `.ipynb` ni `.pdf` sont ignorés par le site (ils peuvent rester dans le dépôt).
+Rien d'autre n'est nécessaire. Les fichiers qui ne sont ni `.ipynb`, ni `.pdf`, ni `.zip` sont ignorés par le site (ils peuvent rester dans le dépôt). Chaque fichier doit rester sous 100 Mo, la limite que GitHub applique à un fichier.
 
 ### 7. Facultatif : nom de domaine personnalisé
 

@@ -4,8 +4,8 @@ DI4A website builder
 ====================
 
 Scans ``content/`` (one sub-folder per theme), builds the catalogue
-``data/catalog.json``, copies the publishable documents (``.ipynb`` and
-``.pdf`` only) under descriptive download names ending with ``_AfDB_DI4A``,
+``data/catalog.json``, copies the publishable documents (``.ipynb``,
+``.pdf`` and ``.zip`` only) under descriptive download names ending with ``_AfDB_DI4A``,
 renders one static page per theme and assembles the deployable site in
 ``dist/``.
 
@@ -52,7 +52,21 @@ except ImportError:  # pragma: no cover
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Only these extensions are published; everything else is silently ignored.
-PUBLISHED_TYPES = {".ipynb": "lab", ".pdf": "presentation"}
+PUBLISHED_TYPES = {".ipynb": "lab", ".pdf": "presentation", ".zip": "resource"}
+DOC_TYPES = ("lab", "presentation", "resource")
+
+# Language of a published file: "en", "fr", or "both" for a single file that
+# holds both languages (typically a ZIP archive).  Order used inside a card.
+LANG_ORDER = {"en": 0, "fr": 1, "both": 2}
+
+GENERIC_DESC = {
+    "lab": ("Hands-on Jupyter notebook: run it in Google Colab or download it.",
+            "Notebook Jupyter pratique : à exécuter dans Google Colab ou à télécharger."),
+    "presentation": ("Presentation deck or support document (PDF).",
+                     "Présentation ou support de cours (PDF)."),
+    "resource": ("Downloadable archive (ZIP): notebooks, code, data or other project files.",
+                 "Archive téléchargeable (ZIP) : notebooks, code, données ou autres fichiers du projet."),
+}
 
 DEFAULT_CONFIG = {
     "repo": "datainnov4africa-web/DI4A-Website",
@@ -169,6 +183,7 @@ def make_download_name(
 ) -> tuple[str, list[str]]:
     """Build ``Descriptive_Title_Case_EN_AfDB_DI4A.ext``.
 
+    ``lang="both"`` (one file holding both languages) yields ``..._EN_FR_AfDB_DI4A.ext``.
     Returns the file name and the list of tokens that were removed because
     they matched the forbidden-term list.
     """
@@ -183,7 +198,9 @@ def make_download_name(
     if lang:
         tokens = [t for t in tokens if t.upper() not in {"EN", "FR"}]
     tokens = tokens[:max_tokens]
-    if lang:
+    if lang == "both":
+        tokens += ["EN", "FR"]
+    elif lang:
         tokens.append(lang.upper())
     if not tokens:
         tokens = ["Document"]
@@ -398,22 +415,20 @@ def scan_content(content_dir: Path, cfg: dict) -> list[dict]:
             if ext == ".ipynb":
                 nb_title, nb_para = notebook_intro(file)
             lang = str(dmeta.get("lang") or detect_lang(file.name) or "").lower()
-            if lang not in {"en", "fr"}:
-                warn(f"{folder.name}/{file.name}: language not detected (use a _EN/_FR suffix or 'lang:' "
-                     f"in _meta.yml) — assuming English")
-                lang = "en"
+            if lang not in LANG_ORDER:
+                if doc_type == "resource":
+                    lang = "both"  # an archive without a language suffix is assumed to bundle both
+                else:
+                    warn(f"{folder.name}/{file.name}: language not detected (use a _EN/_FR suffix or "
+                         f"'lang:' in _meta.yml) — assuming English")
+                    lang = "en"
+            text_lang = "en" if lang == "both" else lang
             fallback_title = nb_title or title_from_folder(clean_stem(file.stem, suffix))
             doc_title = bilingual(dmeta.get("title"), fallback_title)
             if not dmeta.get("title"):
                 warn(f"{folder.name}/{file.name}: no title in _meta.yml — using '{fallback_title}'")
-            fallback_desc_en = nb_para or (
-                "Hands-on Jupyter notebook: run it in Google Colab or download it."
-                if doc_type == "lab" else "Presentation deck or support document (PDF)."
-            )
-            fallback_desc_fr = nb_para or (
-                "Notebook Jupyter pratique : à exécuter dans Google Colab ou à télécharger."
-                if doc_type == "lab" else "Présentation ou support de cours (PDF)."
-            )
+            fallback_desc_en = nb_para or GENERIC_DESC[doc_type][0]
+            fallback_desc_fr = nb_para or GENERIC_DESC[doc_type][1]
             doc_desc = bilingual(dmeta.get("description"), fallback_desc_en, fallback_desc_fr)
             if not dmeta.get("description"):
                 warn(f"{folder.name}/{file.name}: no description in _meta.yml — using "
@@ -443,8 +458,8 @@ def scan_content(content_dir: Path, cfg: dict) -> list[dict]:
                 "_type": doc_type,
                 "_format": ext.lstrip("."),
                 "lang": lang,
-                "title": doc_title[lang],
-                "description": doc_desc[lang],
+                "title": doc_title[text_lang],
+                "description": doc_desc[text_lang],
                 "size": size,
                 "size_human": human_size(size),
                 "updated": file_updated(file),
@@ -460,7 +475,13 @@ def scan_content(content_dir: Path, cfg: dict) -> list[dict]:
         for v in versions:
             key = v["_key"]
             bucket = groups.setdefault(key, [])
-            if any(o["lang"] == v["lang"] for o in bucket) or any(o["_type"] != v["_type"] for o in bucket):
+            # A single file holding both languages ("both") never shares a card.
+            clash = bool(bucket) and (
+                v["lang"] == "both"
+                or any(o["lang"] in {v["lang"], "both"} for o in bucket)
+                or any(o["_type"] != v["_type"] for o in bucket)
+            )
+            if clash:
                 warn(f"{folder.name}/{Path(v['source']).name}: cannot be paired (same language or different "
                      f"type as another file of the group) — kept as a separate entry")
                 key = f"{key}--{slugify(Path(v['source']).stem)}"
@@ -473,7 +494,7 @@ def scan_content(content_dir: Path, cfg: dict) -> list[dict]:
 
         documents: list[dict] = []
         for key, group in groups.items():
-            group.sort(key=lambda v: ("en", "fr").index(v["lang"]))
+            group.sort(key=lambda v: LANG_ORDER[v["lang"]])
             by_lang = {v["lang"]: v for v in group}
             first = group[0]
             card_title = {L: (by_lang[L]["_title"][L] if L in by_lang else first["_title"][L]) for L in ("en", "fr")}
@@ -518,9 +539,8 @@ def scan_content(content_dir: Path, cfg: dict) -> list[dict]:
                     cover_src = candidate
                     break
 
-        counts = {"lab": sum(d["type"] == "lab" for d in documents),
-                  "presentation": sum(d["type"] == "presentation" for d in documents),
-                  "files": len(versions)}
+        counts = {kind: sum(d["type"] == kind for d in documents) for kind in DOC_TYPES}
+        counts["files"] = len(versions)
         themes.append({
             "id": theme_id,
             "folder": folder.name,
@@ -534,7 +554,7 @@ def scan_content(content_dir: Path, cfg: dict) -> list[dict]:
             "documents": documents,
         })
         if not documents:
-            warn(f"{folder.name}: theme has no .ipynb or .pdf file — it will be listed as empty")
+            warn(f"{folder.name}: theme has no publishable file (.ipynb, .pdf, .zip) — it will be listed as empty")
     themes.sort(key=lambda t: (t["order"], t["title"]["en"].lower()))
     return themes
 
@@ -561,8 +581,9 @@ def add_links(themes: list[dict], cfg: dict) -> None:
                 if d["type"] == "lab":
                     links["view"] = f"https://nbviewer.org/github/{repo}/blob/{branch}/{rel}"
                     links["colab"] = f"https://colab.research.google.com/github/{repo}/blob/{branch}/{rel}"
-                else:
+                elif d["type"] == "presentation":
                     links["preview"] = rel
+                # resources (ZIP archives): download only
                 v["links"] = links
 
 
@@ -571,8 +592,9 @@ def build_catalog(themes: list[dict], cfg: dict) -> dict:
         "themes": len(themes),
         "labs": sum(t["counts"]["lab"] for t in themes),
         "presentations": sum(t["counts"]["presentation"] for t in themes),
+        "resources": sum(t["counts"]["resource"] for t in themes),
     }
-    stats["documents"] = stats["labs"] + stats["presentations"]
+    stats["documents"] = stats["labs"] + stats["presentations"] + stats["resources"]
     stats["files"] = sum(t["counts"]["files"] for t in themes)
     public_themes = [{k: v for k, v in t.items() if not k.startswith("_")} for t in themes]
     return {
@@ -764,21 +786,26 @@ def verify_output(out_dir: Path, cfg: dict) -> list[str]:
 def catalog_markdown(catalog: dict, lang: str) -> str:
     base = catalog["site"]["base_url"]
     labels = {
-        "en": ("Theme", "Labs", "Presentations", "Page", "Lab", "Presentation"),
-        "fr": ("Thème", "Labs", "Présentations", "Page", "Lab", "Présentation"),
+        "en": ("Theme", "Labs", "Presentations", "Archives", "Page"),
+        "fr": ("Thème", "Labs", "Présentations", "Archives", "Page"),
     }[lang]
-    lines = [f"| {labels[0]} | {labels[1]} | {labels[2]} | {labels[3]} |", "|---|:-:|:-:|---|"]
+    badges = {
+        "en": {"lab": "Lab", "presentation": "Presentation", "resource": "Archive"},
+        "fr": {"lab": "Lab", "presentation": "Présentation", "resource": "Archive"},
+    }[lang]
+    lines = [f"| {labels[0]} | {labels[1]} | {labels[2]} | {labels[3]} | {labels[4]} |", "|---|:-:|:-:|:-:|---|"]
     for t in catalog["themes"]:
-        lines.append(f"| **{t['title'][lang]}** | {t['counts']['lab']} | {t['counts']['presentation']} "
+        c = t["counts"]
+        lines.append(f"| **{t['title'][lang]}** | {c['lab']} | {c['presentation']} | {c.get('resource', 0)} "
                      f"| [{base}themes/{t['id']}/]({base}themes/{t['id']}/) |")
     for t in catalog["themes"]:
         lines.append("")
         lines.append(f"<details><summary><b>{t['title'][lang]}</b> — {len(t['documents'])} documents</summary>")
         lines.append("")
         for d in t["documents"]:
-            badge = labels[4] if d["type"] == "lab" else labels[5]
+            badge = badges.get(d["type"], d["type"])
             links = " · ".join(
-                f"[{L.upper()}]({base}{v['file']}) <sub>({v['size_human']})</sub>"
+                f"[{'EN+FR' if L == 'both' else L.upper()}]({base}{v['file']}) <sub>({v['size_human']})</sub>"
                 for L, v in d["versions"].items())
             lines.append(f"- **{badge}** — {d['title'][lang]} — {links}")
         lines.append("")
@@ -835,7 +862,8 @@ def main(argv: list[str] | None = None) -> int:
     if problems:
         return 1
     s = catalog["stats"]
-    info(f"{s['themes']} theme(s), {s['labs']} lab(s), {s['presentations']} presentation(s) -> {args.out}")
+    info(f"{s['themes']} theme(s), {s['labs']} lab(s), {s['presentations']} presentation(s), "
+         f"{s['resources']} archive(s) -> {args.out}")
     for t in themes:
         for d in t["documents"]:
             for v in d["versions"].values():
