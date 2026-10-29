@@ -35,13 +35,13 @@ This repository hosts the **official DI4A website**: a bilingual (EN/FR) catalog
 The tables below are regenerated automatically by the deployment workflow.
 
 <!-- CATALOG-EN:START -->
-| Theme | Labs | Presentations | Page |
-|---|:-:|:-:|---|
-| **Data Innovation Framework & Maturity Model** | 0 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/](https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/) |
-| **Night-Time Lights & Earth Observation** | 3 | 5 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/) |
-| **Connectivity Data & Big Data at Scale** | 2 | 3 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/) |
-| **Price Statistics & Alternative Data for the CPI** | 1 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/](https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/) |
-| **Generative AI & RAG Assistants** | 2 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
+| Theme | Labs | Presentations | Archives | Page |
+|---|:-:|:-:|:-:|---|
+| **Data Innovation Framework & Maturity Model** | 0 | 2 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/](https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/) |
+| **Night-Time Lights & Earth Observation** | 3 | 5 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/) |
+| **Connectivity Data & Big Data at Scale** | 2 | 3 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/) |
+| **Price Statistics & Alternative Data for the CPI** | 0 | 3 | 1 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/](https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/) |
+| **Generative AI & RAG Assistants** | 2 | 2 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
 
 <details><summary><b>Data Innovation Framework & Maturity Model</b> — 2 documents</summary>
 
@@ -73,10 +73,11 @@ The tables below are regenerated automatically by the deployment workflow.
 
 </details>
 
-<details><summary><b>Price Statistics & Alternative Data for the CPI</b> — 3 documents</summary>
+<details><summary><b>Price Statistics & Alternative Data for the CPI</b> — 4 documents</summary>
 
-- **Presentation** — The consumer price index: from COICOP 2018 to online prices — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf) <sub>(1.0 MB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf) <sub>(1.0 MB)</sub>
-- **Lab** — Lab — Online price index: aggregation, COICOP classification and index computation — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Online_Price_Index_Analysis_And_COICOP_Classification_Lab_EN_AfDB_DI4A.ipynb) <sub>(43.3 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Online_Price_Index_Analysis_And_COICOP_Classification_Lab_FR_AfDB_DI4A.ipynb) <sub>(469.3 KB)</sub>
+- **Presentation** — The consumer price index: from COICOP 2018 to online prices — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf) <sub>(1.0 MB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf) <sub>(1.1 MB)</sub>
+- **Presentation** — A price index built from the web — three notebooks, eight countries, two families of sources — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_EN_AfDB_DI4A.pdf) <sub>(755.6 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_FR_AfDB_DI4A.pdf) <sub>(767.8 KB)</sub>
+- **Archive** — Toolkit — the three price-index notebooks with their code, baskets and sample data — [EN+FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Online_Price_Index_Toolkit_Notebooks_Code_Baskets_And_Sample_Data_EN_FR_AfDB_DI4A.zip) <sub>(54.8 MB)</sub>
 - **Presentation** — Installing Python and JupyterLab — step-by-step guide — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_EN_AfDB_DI4A.pdf) <sub>(473.9 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_FR_AfDB_DI4A.pdf) <sub>(485.2 KB)</sub>
 
 </details>
@@ -94,7 +95,7 @@ The tables below are regenerated automatically by the deployment workflow.
 ### How to add a theme or a document (3 steps)
 
 1. **Create or open a theme folder** under `content/`, for example `content/Machine-Learning/`. The folder name becomes the theme's URL (`themes/machine-learning/`).
-2. **Drop your files** in it. Only `.ipynb` (published as *Labs*) and `.pdf` (published as *Presentations*) are shown; every other format is ignored. Optionally add a `_meta.yml` with bilingual titles, descriptions, an icon, a cover image and the descriptive download name of each file (see [`content/NTL/_meta.yml`](content/NTL/_meta.yml)).
+2. **Drop your files** in it. Only `.ipynb` (published as *Labs*), `.pdf` (published as *Presentations*) and `.zip` (published as *Archives*: toolkits, code and data, download only) are shown; every other format is ignored. A ZIP without a language suffix is treated as a single file holding both languages (badge "EN · FR", published as `..._EN_FR_AfDB_DI4A.zip`); add `lang: en` or `lang: fr` in `_meta.yml` otherwise. Optionally add a `_meta.yml` with bilingual titles, descriptions, an icon, a cover image and the descriptive download name of each file (see [`content/NTL/_meta.yml`](content/NTL/_meta.yml)).
    **Bilingual documents:** name the two versions with a language suffix, `Data_Visualization_EN.pdf` and `Data_Visualization_FR.pdf`. They are merged into a single card with an EN | FR switch, and published as `Data_Visualization_EN_AfDB_DI4A.pdf` / `..._FR_AfDB_DI4A.pdf`. Two files with different names can be paired with the same `group:` value in `_meta.yml`. A document available in one language only gets a single-language badge.
 3. **Commit and push** to `main`. GitHub Actions rebuilds the catalogue, renames the published copies (`Descriptive_Title_AfDB_DI4A.ext`), regenerates the pages and deploys the site. Deleting a folder or a file removes it from the site in the same way.
 
@@ -108,7 +109,7 @@ DI4A-Website/
 │   ├── NTL/                 #    one sub-folder = one theme
 │   │   ├── _meta.yml        #    optional metadata (titles, descriptions, icon, cover, names)
 │   │   ├── _cover.webp      #    optional cover image
-│   │   └── *.ipynb, *.pdf   #    published documents (other formats ignored)
+│   │   └── *.ipynb, *.pdf, *.zip   # published documents (other formats ignored)
 │   └── RAG/
 ├── site/                    # static site sources (HTML templates, CSS, JS, images)
 │   ├── index.html           # home page template
@@ -173,13 +174,13 @@ Ce dépôt héberge le **site officiel DI4A** : un catalogue bilingue (EN/FR) de
 Les tableaux ci-dessous sont régénérés automatiquement par le workflow de déploiement.
 
 <!-- CATALOG-FR:START -->
-| Thème | Labs | Présentations | Page |
-|---|:-:|:-:|---|
-| **Cadre d'innovation des données et modèle de maturité** | 0 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/](https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/) |
-| **Lumières nocturnes et observation de la Terre** | 3 | 5 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/) |
-| **Données de connectivité et big data à l'échelle** | 2 | 3 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/) |
-| **Statistiques des prix et données alternatives pour l'IPC** | 1 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/](https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/) |
-| **IA générative et assistants RAG** | 2 | 2 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
+| Thème | Labs | Présentations | Archives | Page |
+|---|:-:|:-:|:-:|---|
+| **Cadre d'innovation des données et modèle de maturité** | 0 | 2 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/](https://datainnov4africa-web.github.io/DI4A-Website/themes/framework/) |
+| **Lumières nocturnes et observation de la Terre** | 3 | 5 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ntl/) |
+| **Données de connectivité et big data à l'échelle** | 2 | 3 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/](https://datainnov4africa-web.github.io/DI4A-Website/themes/ookla/) |
+| **Statistiques des prix et données alternatives pour l'IPC** | 0 | 3 | 1 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/](https://datainnov4africa-web.github.io/DI4A-Website/themes/cpi/) |
+| **IA générative et assistants RAG** | 2 | 2 | 0 | [https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/](https://datainnov4africa-web.github.io/DI4A-Website/themes/rag/) |
 
 <details><summary><b>Cadre d'innovation des données et modèle de maturité</b> — 2 documents</summary>
 
@@ -211,10 +212,11 @@ Les tableaux ci-dessous sont régénérés automatiquement par le workflow de d�
 
 </details>
 
-<details><summary><b>Statistiques des prix et données alternatives pour l'IPC</b> — 3 documents</summary>
+<details><summary><b>Statistiques des prix et données alternatives pour l'IPC</b> — 4 documents</summary>
 
-- **Présentation** — L'indice des prix à la consommation : de la COICOP 2018 aux prix en ligne — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf) <sub>(1.0 MB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf) <sub>(1.0 MB)</sub>
-- **Lab** — Lab — Indice des prix en ligne : agrégation, classification COICOP et calcul de l'indice — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Online_Price_Index_Analysis_And_COICOP_Classification_Lab_EN_AfDB_DI4A.ipynb) <sub>(43.3 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Online_Price_Index_Analysis_And_COICOP_Classification_Lab_FR_AfDB_DI4A.ipynb) <sub>(469.3 KB)</sub>
+- **Présentation** — L'indice des prix à la consommation : de la COICOP 2018 aux prix en ligne — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_EN_AfDB_DI4A.pdf) <sub>(1.0 MB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Consumer_Price_Index_COICOP_Classification_And_Online_Prices_FR_AfDB_DI4A.pdf) <sub>(1.1 MB)</sub>
+- **Présentation** — Un indice de prix à partir du web — trois carnets, huit pays, deux familles de sources — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_EN_AfDB_DI4A.pdf) <sub>(755.6 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries_FR_AfDB_DI4A.pdf) <sub>(767.8 KB)</sub>
+- **Archive** — Boîte à outils — les trois carnets de l'indice des prix avec leur code, paniers et données d'exemple — [EN+FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Online_Price_Index_Toolkit_Notebooks_Code_Baskets_And_Sample_Data_EN_FR_AfDB_DI4A.zip) <sub>(54.8 MB)</sub>
 - **Présentation** — Installer Python et JupyterLab — guide pas à pas — [EN](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_EN_AfDB_DI4A.pdf) <sub>(473.9 KB)</sub> · [FR](https://datainnov4africa-web.github.io/DI4A-Website/files/cpi/Installing_Python_And_JupyterLab_Step_By_Step_Guide_FR_AfDB_DI4A.pdf) <sub>(485.2 KB)</sub>
 
 </details>
@@ -232,7 +234,7 @@ Les tableaux ci-dessous sont régénérés automatiquement par le workflow de d�
 ### Ajouter un thème ou un document (3 étapes)
 
 1. **Créez ou ouvrez un dossier de thème** dans `content/`, par exemple `content/Machine-Learning/`. Le nom du dossier devient l'adresse du thème (`themes/machine-learning/`).
-2. **Déposez vos fichiers** dedans. Seuls les `.ipynb` (publiés comme *Labs*) et les `.pdf` (publiés comme *Présentations*) sont affichés ; tout autre format est ignoré. Ajoutez si vous le souhaitez un `_meta.yml` avec titres et descriptions bilingues, icône, image de couverture et nom de téléchargement descriptif de chaque fichier (voir [`content/NTL/_meta.yml`](content/NTL/_meta.yml)).
+2. **Déposez vos fichiers** dedans. Seuls les `.ipynb` (publiés comme *Labs*), les `.pdf` (publiés comme *Présentations*) et les `.zip` (publiés comme *Archives* : boîtes à outils, code et données, téléchargement seul) sont affichés ; tout autre format est ignoré. Un ZIP sans suffixe de langue est considéré comme un fichier unique contenant les deux langues (badge « EN · FR », publié sous `..._EN_FR_AfDB_DI4A.zip`) ; sinon, indiquez `lang: en` ou `lang: fr` dans `_meta.yml`. Ajoutez si vous le souhaitez un `_meta.yml` avec titres et descriptions bilingues, icône, image de couverture et nom de téléchargement descriptif de chaque fichier (voir [`content/NTL/_meta.yml`](content/NTL/_meta.yml)).
    **Documents bilingues :** nommez les deux versions avec un suffixe de langue, `Data_Visualization_EN.pdf` et `Data_Visualization_FR.pdf`. Elles sont fusionnées en une seule carte avec un interrupteur EN | FR et publiées sous `Data_Visualization_EN_AfDB_DI4A.pdf` / `..._FR_AfDB_DI4A.pdf`. Deux fichiers aux noms différents s'apparient avec la même valeur `group:` dans `_meta.yml`. Un document disponible dans une seule langue porte un badge de langue unique.
 3. **Validez et poussez** sur `main`. GitHub Actions reconstruit le catalogue, renomme les copies publiées (`Titre_Descriptif_AfDB_DI4A.ext`), régénère les pages et déploie le site. Supprimer un dossier ou un fichier le retire du site de la même façon.
 
@@ -246,7 +248,7 @@ DI4A-Website/
 │   ├── NTL/                 #    un sous-dossier = un thème
 │   │   ├── _meta.yml        #    métadonnées facultatives (titres, descriptions, icône, couverture, noms)
 │   │   ├── _cover.webp      #    image de couverture facultative
-│   │   └── *.ipynb, *.pdf   #    documents publiés (autres formats ignorés)
+│   │   └── *.ipynb, *.pdf, *.zip   # documents publiés (autres formats ignorés)
 │   └── RAG/
 ├── site/                    # sources du site statique (gabarits HTML, CSS, JS, images)
 ├── i18n/                    # chaînes d'interface : en.json, fr.json

@@ -13,14 +13,16 @@ description:
   en: >-
     The consumer price index guides monetary policy, indexes wages and deflates the national
     accounts: a one-point error is paid for everywhere. This theme covers the CPI from definition to
-    compilation, the COICOP 2018 classification that structures the basket, and a hands-on lab that
-    turns online and administered prices into an experimental index for Côte d'Ivoire and Senegal.
+    compilation and the COICOP 2018 classification that structures the basket, then shows how an
+    experimental price index is built from the web: e-commerce sites and official publications in
+    eight African countries, with a complete toolkit of three notebooks, code, baskets and sample data.
   fr: >-
     L'indice des prix à la consommation guide la politique monétaire, indexe les salaires et déflate
     les comptes nationaux : une erreur d'un point se paie partout. Ce thème couvre l'IPC de la
-    définition au calcul, la nomenclature COICOP 2018 qui structure le panier, et un lab pratique qui
-    transforme prix en ligne et prix administrés en un indice expérimental pour la Côte d'Ivoire et le
-    Sénégal.
+    définition au calcul et la nomenclature COICOP 2018 qui structure le panier, puis montre comment
+    construire un indice de prix expérimental à partir du web : sites de commerce en ligne et
+    publications officielles de huit pays africains, avec une boîte à outils complète de trois
+    carnets, code, paniers et données d'exemple.
 
 documents:
 
@@ -57,44 +59,81 @@ documents:
         l'UEMOA, la nomenclature COICOP 2018, et comment les prix en ligne et les prix publiés par les
         institutions peuvent compléter la collecte en Côte d'Ivoire et au Sénégal.
 
-  3_analysis_EN.ipynb:
+  A-price-index-built-from-the-web_AfDB-DI4A.pdf:
     order: 2
-    group: online-price-index-lab
-    download: Online_Price_Index_Analysis_And_COICOP_Classification_Lab
+    lang: en                       # no language token in the file name
+    group: web-price-index-deck    # pairs the EN and FR decks whose file names differ
+    download: A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries
     title:
-      en: "Lab — Online price index: aggregation, COICOP classification and index computation"
-      fr: "Lab — Indice des prix en ligne : agrégation, classification COICOP et calcul de l'indice"
+      en: "A price index built from the web — three notebooks, eight countries, two families of sources"
+      fr: "Un indice de prix à partir du web — trois carnets, huit pays, deux familles de sources"
     description:
       en: >-
-        No installation and no code to write: run the cells from top to bottom. The notebook
-        aggregates the price records collected online and from institutions, checks them, assigns
-        each product to a COICOP class with rules or a language model, compares the classification
-        methods, computes a price index and produces a downloadable report. Third notebook of a
-        three-part series.
+        How an experimental price index is built from e-commerce sites and official publications in
+        eight African countries. The purpose and what the device does not measure; the concepts
+        (COICOP 2018, basket, variety, SKU, matched models, weights, robots.txt); the whole chain in
+        one diagram; the three notebooks and classification by rules, embeddings and language models;
+        the calculations walked through on real cases; how to run and resume a campaign; the data
+        collected; scope, limits and sources. Forty-three slides.
       fr: >-
-        Version anglaise du lab : agrégation des relevés, classification COICOP, comparaison des
-        méthodes, calcul de l'indice et rapport à télécharger.
+        Comment un indice de prix expérimental est construit à partir des sites de commerce en ligne
+        et des publications officielles de huit pays africains. L'objectif et ce que le dispositif ne
+        mesure pas ; les concepts (COICOP 2018, panier, variété, SKU, modèles appariés, pondérations,
+        robots.txt) ; toute la chaîne en un schéma ; les trois carnets et la classification par règles,
+        embeddings et modèles de langage ; les calculs déroulés sur des cas réels ; comment lancer et
+        reprendre une campagne ; les données collectées ; portée, limites et sources. Quarante-trois
+        diapositives.
 
-  3_analyse_FR.ipynb:
+  Un-indice-de-prix-a-partir-du-web_AfDB-DI4A.pdf:
     order: 2
-    group: online-price-index-lab   # pairs the EN and FR notebooks whose file names differ
-    download: Online_Price_Index_Analysis_And_COICOP_Classification_Lab
+    lang: fr
+    group: web-price-index-deck
+    download: A_Price_Index_Built_From_The_Web_Three_Notebooks_Eight_Countries
     title:
-      en: "Lab — Online price index: aggregation, COICOP classification and index computation"
-      fr: "Lab — Indice des prix en ligne : agrégation, classification COICOP et calcul de l'indice"
+      en: "A price index built from the web — three notebooks, eight countries, two families of sources"
+      fr: "Un indice de prix à partir du web — trois carnets, huit pays, deux familles de sources"
     description:
       en: >-
-        French version of the lab: aggregate the price records, classify products into COICOP,
-        compare the methods, compute the index and download the report.
+        French version of the deck: purpose, concepts, the whole chain, the three notebooks and
+        classification, worked calculations, running a campaign, data collected, scope and limits.
       fr: >-
-        Rien à installer, aucune ligne de code à écrire : lancez les cellules de haut en bas. Le
-        notebook agrège les relevés de prix collectés en ligne et auprès des institutions, les
-        contrôle, rattache chaque produit à une classe COICOP par règles ou par modèle de langue,
-        compare les méthodes de classification, calcule un indice des prix et produit un rapport à
-        télécharger. Troisième notebook d'une série de trois.
+        Comment un indice de prix expérimental est construit à partir des sites de commerce en ligne
+        et des publications officielles de huit pays africains. L'objectif et ce que le dispositif ne
+        mesure pas ; les concepts (COICOP 2018, panier, variété, SKU, modèles appariés, pondérations,
+        robots.txt) ; toute la chaîne en un schéma ; les trois carnets et la classification par règles,
+        embeddings et modèles de langage ; les calculs déroulés sur des cas réels ; comment lancer et
+        reprendre une campagne ; les données collectées ; portée, limites et sources. Quarante-trois
+        diapositives.
+
+  CPI_AfDB.zip:
+    order: 3
+    lang: both                     # one archive, notebooks in English and in French
+    group: price-index-toolkit     # stable identifier of the card
+    download: Online_Price_Index_Toolkit_Notebooks_Code_Baskets_And_Sample_Data
+    title:
+      en: "Toolkit — the three price-index notebooks with their code, baskets and sample data"
+      fr: "Boîte à outils — les trois carnets de l'indice des prix avec leur code, paniers et données d'exemple"
+    description:
+      en: >-
+        Everything needed to run the chain on your own workstation: the three notebooks in English
+        and in French (collect e-commerce prices, complete with official sources, classify and
+        compute the index), the shared code engine, the baskets and official weights of eight
+        countries (Côte d'Ivoire, Egypt, Ghana, Kenya, Morocco, Nigeria, Senegal, Uganda), sample
+        data, the archives already collected per country, set-up scripts for Windows, macOS and
+        Linux, and a README. Requires Python 3.10 or later; the two collection notebooks run on the
+        institute's computer, the analysis notebook also runs in Google Colab.
+      fr: >-
+        Tout ce qu'il faut pour exécuter la chaîne sur votre propre poste : les trois carnets en
+        français et en anglais (collecter les prix du commerce en ligne, compléter avec les sources
+        officielles, classer et calculer l'indice), le moteur de code commun, les paniers et
+        pondérations officielles de huit pays (Côte d'Ivoire, Égypte, Ghana, Kenya, Maroc, Nigeria,
+        Sénégal, Ouganda), des données d'exemple, les archives déjà collectées par pays, les scripts
+        d'installation pour Windows, macOS et Linux, et un guide de démarrage. Nécessite Python 3.10
+        ou plus ; les deux carnets de collecte tournent sur le poste de l'institut, le carnet
+        d'analyse tourne aussi dans Google Colab.
 
   Installing-Python-JupyterLab-EN.pdf:
-    order: 3
+    order: 4
     group: python-jupyterlab-install
     download: Installing_Python_And_JupyterLab_Step_By_Step_Guide
     title:
@@ -111,7 +150,7 @@ documents:
         JupyterLab, et résoudre les cinq problèmes les plus fréquents.
 
   Installer-Python-JupyterLab-FR.pdf:
-    order: 3
+    order: 4
     group: python-jupyterlab-install
     download: Installing_Python_And_JupyterLab_Step_By_Step_Guide
     title:
